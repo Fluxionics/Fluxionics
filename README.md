@@ -1,20 +1,22 @@
 <div align="center">
 
-<img src="./iconos/header.svg" width="100%" alt="Fluxionics">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05080D,45:0B1724,75:092F3A,100:00D9FF&height=250&section=header&text=FLUXIONICS&fontSize=62&fontColor=FFFFFF&fontAlignY=36&desc=DESARROLLO%20%E2%80%A2%20TECNOLOG%C3%8DA%20%E2%80%A2%20CURIOSIDAD&descAlignY=57&descSize=17&animation=fadeIn" width="100%">
+
+<br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1100&color=37E8FF&center=true&vCenter=true&width=850&lines=Construyendo+ideas.;Aprendiendo+algo+nuevo+casi+todos+los+d%C3%ADas.;Probando+cosas+que+parec%C3%ADan+f%C3%A1ciles.;Arreglando+cosas+que+yo+mismo+romp%C3%AD.;Y+s%C3%AD...+todav%C3%ADa+funciona." alt="Texto animado">
 
 <br><br>
 
 <a href="https://github.com/Fluxionics">
-<img src="https://img.shields.io/badge/GITHUB-Fluxionics-0D1117?style=for-the-badge&logo=github&logoColor=white">
+<img src="https://img.shields.io/badge/GitHub-Fluxionics-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF">
 </a>
-&nbsp;
+
 <a href="https://discord.com/users/1084725255727239270">
-<img src="https://img.shields.io/badge/DISCORD-1084725255727239270-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+<img src="https://img.shields.io/badge/Discord-Perfil-5865F2?style=for-the-badge&logo=discord&logoColor=FFFFFF">
 </a>
 
-<br><br>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=37E8FF&center=true&vCenter=true&width=700&lines=Desarrollando+ideas;Aprendiendo+todos+los+d%C3%ADas;Probando+cosas+que+probablemente+no+deber%C3%ADa;Y+arreglando+lo+que+romp%C3%AD" alt="Animación de texto">
+<img src="https://img.shields.io/badge/Estado-Curioso-00D9FF?style=for-the-badge">
 
 </div>
 
@@ -29,27 +31,44 @@
 
 Me gusta **crear, experimentar y aprender haciendo**.
 
-No soy de quedarme esperando a saberlo todo para comenzar algo. Normalmente empiezo con una idea, intento construirla y en el camino descubro veinte cosas que no sabía.
+No tengo todo perfectamente planeado ni pretendo saberlo todo. Muchas veces simplemente aparece una idea, empiezo a investigar cómo podría hacerla y termino aprendiendo un montón de cosas durante el proceso.
 
-La tecnología terminó convirtiéndose en una mezcla bastante curiosa de:
+La tecnología para mí es una mezcla de:
 
-**curiosidad + creatividad + problemas inesperados.**
+**curiosidad + creatividad + prueba y error.**
 
-Me gusta descubrir cómo funcionan las cosas, intentar hacerlas por mi cuenta y mejorar lo que ya hice.
+Me gusta descubrir cómo funcionan las cosas, construirlas por mi cuenta y después pensar:
 
-Y sí...
+> **"¿Y si lo hacemos mejor?"**
 
-A veces digo:
-
-> **"Solo voy a cambiar una cosa."**
-
-Todos sabemos cómo termina eso.
+Y aquí empieza el problema.
 
 </td>
 
 <td width="40%" valign="top">
 
-<img src="./iconos/about.svg" width="100%" alt="Sobre Fluxionics">
+<div align="center">
+
+```text
+╭──────────────────────────────╮
+│       FLUXIONICS.EXE         │
+├──────────────────────────────┤
+│                              │
+│  STATUS       ONLINE         │
+│  MODE         BUILD          │
+│  CURIOSITY    MAX            │
+│  IDEAS        TOO MANY       │
+│  BUGS         CLASSIFIED     │
+│  SLEEP        NOT FOUND      │
+│                              │
+│  SYSTEM: WORKING*            │
+│                              │
+╰──────────────────────────────╯
+
+* técnicamente
+```
+
+</div>
 
 </td>
 
@@ -62,7 +81,7 @@ Todos sabemos cómo termina eso.
 
 <div align="center">
 
-# SOBRE MÍ
+# QUIÉN SOY
 
 </div>
 
@@ -71,17 +90,9 @@ Todos sabemos cómo termina eso.
 
 <td width="33%" align="center">
 
-### PROGRAMADOR
-
-Me gusta construir cosas desde cero, experimentar con código y encontrar soluciones aunque al principio no tenga ni idea de cómo hacerlo.
-
-</td>
-
-<td width="33%" align="center">
-
 ### CURIOSO
 
-Cuando algo llama mi atención, normalmente termino investigándolo hasta entender cómo funciona.
+Si algo llama mi atención, probablemente terminaré investigándolo hasta entenderlo.
 
 </td>
 
@@ -89,7 +100,17 @@ Cuando algo llama mi atención, normalmente termino investigándolo hasta entend
 
 ### CREADOR
 
-Prefiero aprender construyendo algo real que pasar horas leyendo teoría sin probarla.
+Me gusta que las ideas terminen convertidas en algo que realmente pueda usar.
+
+</td>
+
+<td width="33%" align="center">
+
+### EXPERIMENTADOR
+
+Aprendo probando. A veces funciona a la primera.
+
+Normalmente no.
 
 </td>
 
@@ -98,44 +119,51 @@ Prefiero aprender construyendo algo real que pasar horas leyendo teoría sin pro
 
 <br>
 
-<div align="center">
-
-<img src="./iconos/stats.svg" width="92%" alt="Estadísticas personales">
-
-</div>
-
-<br>
-
 <table>
 <tr>
 
 <td width="50%" valign="top">
 
-## PERSONALIDAD
+## MI FORMA DE APRENDER
 
 ```text
-Curiosidad        ████████████████████ 100%
-Creatividad       ██████████████████░░  92%
-Experimentar      ███████████████████░  97%
-Aprender          ████████████████████ 100%
-Paciencia         ██████████████░░░░░░  74%
-Dormir temprano   ███░░░░░░░░░░░░░░░░  17%
+IDEA
+  ↓
+PRUEBA
+  ↓
+ERROR
+  ↓
+INVESTIGACIÓN
+  ↓
+ARREGLO
+  ↓
+"AHHHHH"
+  ↓
+MEJORA
+  ↓
+NUEVA IDEA
 ```
 
 </td>
 
 <td width="50%" valign="top">
 
-## ESTADO ACTUAL
+## MI FILOSOFÍA
 
 ```text
-Estado       : ONLINE
-Modo         : CREANDO
-Curiosidad   : ALTA
-Ideas        : DEMASIADAS
-Sueño        : PENDIENTE
-Bugs         : EN INVESTIGACIÓN
-Motivación   : 100%
+No sé
+  ↓
+Lo investigo
+  ↓
+Lo pruebo
+  ↓
+No funciona
+  ↓
+Lo vuelvo a intentar
+  ↓
+Ahora funciona
+  ↓
+No tocar nada
 ```
 
 </td>
@@ -147,17 +175,14 @@ Motivación   : 100%
 
 <div align="center">
 
-# TECNOLOGÍA
-
-<br>
+# MI STACK
 
 <img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,git,github,vscode,linux&perline=10">
 
 <br><br>
 
 <sub>
-No son porcentajes de habilidad.
-Son herramientas con las que me gusta experimentar.
+Herramientas con las que experimento, aprendo y construyo.
 </sub>
 
 </div>
@@ -167,32 +192,86 @@ Son herramientas con las que me gusta experimentar.
 <table>
 <tr>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### WEB
+### DESARROLLO
 
 ```text
 HTML
 CSS
 JavaScript
 TypeScript
-Interfaces
-Diseño web
+Python
+Java
 ```
 
 </td>
 
-<td width="50%">
+<td width="50%" valign="top">
 
-### PROGRAMACIÓN
+### ENTORNO
 
 ```text
-Python
-Java
+Git
+GitHub
+VS Code
+Linux
+Terminal
 Automatización
-Lógica
-Experimentación
-Sistemas
+```
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+# ESTADÍSTICAS
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Fluxionics&bg_color=0D1117&color=37E8FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true&custom_title=Actividad%20en%20GitHub" width="96%">
+
+</div>
+
+<br>
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### ESTADÍSTICAS REALES
+
+| Métrica           |      Estado      |
+| :---------------- | :--------------: |
+| Curiosidad        |       100%       |
+| Ganas de aprender |         ∞        |
+| Ideas repentinas  |    Demasiadas    |
+| "Solo un cambio"  |       100%       |
+| Bugs              | En investigación |
+| Dormir temprano   |     Error 404    |
+
+</td>
+
+<td width="50%" valign="top">
+
+### ESTADO ACTUAL
+
+```text
+╭──────────────────────────╮
+│ FLUXIONICS STATUS        │
+├──────────────────────────┤
+│                          │
+│ Código       ████████░░  │
+│ Curiosidad   ██████████  │
+│ Creatividad  █████████░  │
+│ Paciencia    ███████░░░  │
+│ Sueño        ██░░░░░░░░  │
+│ Café         ██████████  │
+│                          │
+╰──────────────────────────╯
 ```
 
 </td>
@@ -206,7 +285,7 @@ Sistemas
 
 # GAME ZONE
 
-<img src="./iconos/games.svg" width="92%" alt="Juegos">
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:071019,100:0B2630&height=90&section=header&text=GAME%20ZONE&fontSize=35&fontColor=37E8FF&animation=fadeIn" width="100%">
 
 </div>
 
@@ -215,27 +294,35 @@ Sistemas
 <table>
 <tr>
 
-<td align="center" width="50%">
+<td width="50%" align="center">
 
-### MINECRAFT
+## MINECRAFT
 
-Construir, configurar, experimentar y terminar convirtiendo algo que parecía sencillo en un proyecto de varias horas.
+Uno de esos juegos donde entras diciendo:
 
-**Nivel de obsesión**
+**"Voy a jugar un rato."**
 
-`████████████████████` 100%
+Y mágicamente desaparecen cuatro horas.
+
+```text
+Nivel de obsesión
+
+████████████████████ 100%
+```
 
 </td>
 
-<td align="center" width="50%">
+<td width="50%" align="center">
 
-### ROBLOX
+## ROBLOX
 
-Crear, probar cosas, experimentar y preguntarme por qué decidí complicarme la vida otra vez.
+Otro lugar donde una idea pequeña puede convertirse misteriosamente en algo mucho más grande.
 
-**Nivel de obsesión**
+```text
+Nivel de obsesión
 
-`████████████████░░░░` 80%
+████████████████░░░░  80%
+```
 
 </td>
 
@@ -246,9 +333,11 @@ Crear, probar cosas, experimentar y preguntarme por qué decidí complicarme la 
 
 <div align="center">
 
-**"Una partida rápida."**
+**"Una partida rápida"**
 
-`03:47:21`
+```text
+03:47:21
+```
 
 </div>
 
@@ -261,9 +350,9 @@ Crear, probar cosas, experimentar y preguntarme por qué decidí complicarme la 
 
 <td width="25%" align="center">
 
-### CÓDIGO
+### PROGRAMAR
 
-Crear cosas y ver cómo pasan de una idea a algo real.
+Crear y experimentar con código.
 
 </td>
 
@@ -271,7 +360,7 @@ Crear cosas y ver cómo pasan de una idea a algo real.
 
 ### TECNOLOGÍA
 
-Descubrir herramientas nuevas y probar hasta encontrarles utilidad.
+Descubrir herramientas y aprender cómo funcionan.
 
 </td>
 
@@ -279,7 +368,7 @@ Descubrir herramientas nuevas y probar hasta encontrarles utilidad.
 
 ### VIDEOJUEGOS
 
-Especialmente cuando puedo construir, experimentar o perder demasiado tiempo.
+Especialmente cuando puedo construir o experimentar.
 
 </td>
 
@@ -287,7 +376,7 @@ Especialmente cuando puedo construir, experimentar o perder demasiado tiempo.
 
 ### PERSONALIZAR
 
-Me gusta modificar interfaces, sistemas y cosas hasta que se sientan realmente mías.
+Hacer que las cosas se sientan realmente mías.
 
 </td>
 
@@ -296,138 +385,91 @@ Me gusta modificar interfaces, sistemas y cosas hasta que se sientan realmente m
 
 ---
 
-# MI HISTORIA
-
-<div align="center">
-
-<img src="./iconos/timeline.svg" width="95%" alt="Línea de tiempo">
-
-</div>
-
-<br>
-
-<table>
-<tr>
-
-<td align="center" width="20%">
-
-### 01
-
-**CURIOSIDAD**
-
-Empiezo a preguntarme cómo funcionan las cosas.
-
-</td>
-
-<td align="center" width="20%">
-
-### 02
-
-**EXPERIMENTOS**
-
-Empiezo a probar.
-
-</td>
-
-<td align="center" width="20%">
-
-### 03
-
-**CAOS**
-
-Algo inevitablemente deja de funcionar.
-
-</td>
-
-<td align="center" width="20%">
-
-### 04
-
-**APRENDIZAJE**
-
-Descubro por qué falló.
-
-</td>
-
-<td align="center" width="20%">
-
-### 05
-
-**REPETIR**
-
-Ahora quiero hacerlo mejor.
-
-</td>
-
-</tr>
-</table>
-
-<br>
-
-> Mi camino no ha sido perfecto ni completamente planeado.
->
-> Ha sido más parecido a **probar → equivocarme → aprender → volver a intentar**.
-
----
-
-# MODO DESARROLLADOR
+# UN POCO DE MI HISTORIA
 
 <div align="center">
 
 ```text
-╔══════════════════════════════════════════════╗
-║               FLUXIONICS.EXE                ║
-╠══════════════════════════════════════════════╣
-║                                              ║
-║  STATUS       : ONLINE                       ║
-║  MODE         : BUILD                        ║
-║  CURIOSITY    : MAX                          ║
-║  IDEAS        : TOO MANY                     ║
-║  BUGS         : CLASSIFIED                   ║
-║  COFFEE       : OPTIONAL*                    ║
-║                                              ║
-║  * mentira                                   ║
-║                                              ║
-╚══════════════════════════════════════════════╝
+┌────────────┐
+│ CURIOSIDAD │
+└─────┬──────┘
+      ↓
+┌────────────┐
+│ EXPERIMENTO │
+└─────┬──────┘
+      ↓
+┌────────────┐
+│    CAOS    │
+└─────┬──────┘
+      ↓
+┌────────────┐
+│ APRENDIZAJE│
+└─────┬──────┘
+      ↓
+┌────────────┐
+│   MEJORA   │
+└─────┬──────┘
+      ↓
+┌────────────┐
+│  REPETIR   │
+└────────────┘
 ```
 
 </div>
 
-<br>
+Desde que empecé a interesarme cada vez más por la tecnología, he ido aprendiendo principalmente de una manera:
+
+**hacer cosas.**
+
+No todo sale bien.
+
+No todo sale bonito.
+
+Y definitivamente no todo sale a la primera.
+
+Pero cada error termina enseñando algo.
+
+---
+
+# MI MODO DESARROLLADOR
 
 <table>
 <tr>
 
-<td width="50%" valign="top">
+<td width="50%" align="center">
 
-### CUANDO ALGO FUNCIONA
+### CUANDO FUNCIONA
 
 ```text
 ¿Funciona?
-    │
-    ├── Sí
-    │
-    ▼
-NO TOCAR NADA
+   │
+   ▼
+NO TOCAR.
+   │
+   ▼
+CERRAR EDITOR.
+   │
+   ▼
+FIN.
 ```
 
 </td>
 
-<td width="50%" valign="top">
+<td width="50%" align="center">
 
-### CUANDO ALGO NO FUNCIONA
+### CUANDO NO FUNCIONA
 
 ```text
 Revisar
-   ↓
+  ↓
 Buscar
-   ↓
+  ↓
 Probar
-   ↓
+  ↓
 Romper otra cosa
-   ↓
+  ↓
 Arreglar
-   ↓
+  ↓
 Aprender
 ```
 
@@ -438,49 +480,42 @@ Aprender
 
 ---
 
-# ESTADÍSTICAS TOTALMENTE OFICIALES
-
 <div align="center">
-
-| Métrica                               |         Valor         |
-| :------------------------------------ | :-------------------: |
-| Ideas repentinas                      |           ∞           |
-| "Solo será un cambio"                 |          100%         |
-| Bugs convertidos en aprendizaje       |          100%         |
-| Ganas de aprender                     |           ∞           |
-| Proyectos que empezaron pequeños      |       Demasiados      |
-| Veces que algo salió a la primera     | Sospechosamente pocas |
-| Probabilidad de seguir experimentando |          100%         |
-
-</div>
-
-<br>
-
-<div align="center">
-
-<img src="./iconos/mini-terminal.svg" width="750" alt="Terminal">
-
-</div>
-
----
 
 # DISCORD
 
-<div align="center">
-
 <a href="https://discord.com/users/1084725255727239270">
 
-<img src="./iconos/discord.svg" width="520" alt="Discord de Fluxionics">
+<img src="https://img.shields.io/badge/Discord-Fluxionics-5865F2?style=for-the-badge&logo=discord&logoColor=FFFFFF">
 
 </a>
+
+<br><br>
+
+`1084725255727239270`
 
 <br>
 
-### `1084725255727239270`
+<sub>
+Mi rincón de Discord.
+</sub>
 
-<a href="https://discord.com/users/1084725255727239270">
-Perfil de Discord
-</a>
+</div>
+
+---
+
+# ALGUNAS VERDADES
+
+<div align="center">
+
+| Frase                          | Resultado                |
+| :----------------------------- | :----------------------- |
+| "Solo voy a cambiar una cosa." | Mentira                  |
+| "Esto debería ser fácil."      | Famosas últimas palabras |
+| "Ya sé qué pasa."              | Probablemente no         |
+| "Ya quedó."                    | No necesariamente        |
+| "Lo dejo para mañana."         | 03:00 AM                 |
+| "No voy a añadir nada más."    | Se añadió algo más       |
 
 </div>
 
@@ -488,54 +523,46 @@ Perfil de Discord
 
 <div align="center">
 
-# EN RESUMEN
+# TERMINAL MENTAL
 
-<br>
+```bash
+$ whoami
+Fluxionics
 
-**Me gusta crear.**
+$ status
+learning
 
-**Me gusta aprender.**
+$ mode
+creating
 
-**Me gusta experimentar.**
+$ motivation
+100%
 
-**Me gustan los videojuegos.**
+$ bugs
+features
 
-**Y aparentemente también me gusta complicarme la vida con código.**
+$ sleep
+not_found
 
-<br>
+$ give_up
+false
 
-```text
-LEARN
-  ↓
-BUILD
-  ↓
-BREAK
-  ↓
-FIX
-  ↓
-IMPROVE
-  ↓
-REPEAT
+$ continue
+true
 ```
 
 <br>
 
-<sub>
-
-No sé exactamente dónde voy a terminar.
-
-Pero seguramente voy a estar intentando construir algo.
-
-</sub>
-
-<br><br>
-
-<img src="./iconos/footer.svg" width="100%" alt="Fluxionics">
+### CREAR · ROMPER · APRENDER · ARREGLAR · REPETIR
 
 <br>
 
 <sub>
-Hecho con curiosidad, código y una cantidad cuestionable de tiempo.
+Construido con curiosidad, código y una cantidad cuestionable de tiempo.
 </sub>
+
+<br><br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:0B2630,100:05080D&height=130&section=footer" width="100%">
 
 </div>
