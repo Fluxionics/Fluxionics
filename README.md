@@ -1,275 +1,568 @@
 <div align="center">
 
-<img src="./iconos/blackhole.gif" width="100%" alt="Fluxionics — Perfil de Desarrollador">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05080D,45:0B1724,75:092F3A,100:00D9FF&height=250&section=header&text=FLUXIONICS&fontSize=62&fontColor=FFFFFF&fontAlignY=36&desc=DESARROLLO%20%E2%80%A2%20TECNOLOG%C3%8DA%20%E2%80%A2%20CURIOSIDAD&descAlignY=57&descSize=17&animation=fadeIn" width="100%">
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=37E8FF&center=true&vCenter=true&width=900&lines=Desarrollador+Full+Stack;Solucionador+Creativo+de+Problemas;Aprendiz+Continuo;Entusiasta+Open+Source;Construyendo+el+futuro%2C+un+commit+a+la+vez." alt="Texto animado">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=1100&color=37E8FF&center=true&vCenter=true&width=850&lines=Construyendo+ideas.;Aprendiendo+algo+nuevo+casi+todos+los+d%C3%ADas.;Probando+cosas+que+parec%C3%ADan+f%C3%A1ciles.;Arreglando+cosas+que+yo+mismo+romp%C3%AD.;Y+s%C3%AD...+todav%C3%ADa+funciona." alt="Texto animado">
 
 <br><br>
 
-<a href="https://github.com/Fluxionics"><img src="https://img.shields.io/badge/GitHub-FLUXIONICS-090909?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"></a>
-<a href="https://discord.com/users/1084725255727239270"><img src="https://img.shields.io/badge/Discord-FLUXIONICS-5865F2?style=for-the-badge&logo=discord&logoColor=FFFFFF" alt="Discord"></a>
-<a href="mailto:fluxionics.dev@gmail.com"><img src="https://img.shields.io/badge/Email-CONTACTO-D14836?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"></a>
-<img src="https://img.shields.io/badge/ESTADO-ACTIVO-37E8FF?style=for-the-badge" alt="Estado">
-<img src="https://img.shields.io/badge/OPEN%20SOURCE-CONTRIBUIDOR-FF6B6B?style=for-the-badge" alt="Open Source">
+<a href="https://github.com/Fluxionics">
+<img src="https://img.shields.io/badge/GitHub-Fluxionics-0D1117?style=for-the-badge&logo=github&logoColor=FFFFFF">
+</a>
 
-</div>
+<a href="https://discord.com/users/1084725255727239270">
+<img src="https://img.shields.io/badge/Discord-Perfil-5865F2?style=for-the-badge&logo=discord&logoColor=FFFFFF">
+</a>
 
----
+<img src="https://img.shields.io/badge/Estado-Curioso-00D9FF?style=for-the-badge">
 
-<div align="center">
-<img src="./iconos/about.svg" width="100%" alt="Sobre Fluxionics">
-</div>
-
-## 🚀 Sobre Mí
-
-> **"Crear primero. Entender después. Mejorar siempre."**
-
-Soy un desarrollador apasionado que aprende construyendo. Mi camino no es una línea recta—es un ciclo de **ideas → experimentos → fallos → investigación → soluciones → avances → mejores soluciones**.
-
-No finjo saberlo todo. Prefiero **explorar, experimentar y construir**. Cada bug es una lección. Cada momento de "funciona" es una victoria que vale la pena celebrar.
-
-<table>
-<tr>
-<td width="33%" align="center">
-<br>
-<b>🔍 CURIOSIDAD</b><br><br>
-Si algo llama mi atención,<br>investigo hasta entenderlo.
-<br><br>
-</td>
-<td width="33%" align="center">
-<br>
-<b>⚡ CREACIÓN</b><br><br>
-Las ideas son el inicio.<br>Soluciones funcionales son la meta.
-<br><br>
-</td>
-<td width="33%" align="center">
-<br>
-<b>🧪 EXPERIMENTACIÓN</b><br><br>
-A veces sale a la primera.<br>Normalmente toma unas iteraciones.
-<br><br>
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-<img src="./iconos/stats.svg" width="100%" alt="Estadísticas Personales">
-</div>
-
-## 📊 Analíticas de GitHub
-
-<table>
-<tr>
-<td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Fluxionics&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&locale=es" alt="Estadísticas de GitHub" height="180">
-</td>
-<td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fluxionics&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Lenguajes Principales" height="180">
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%" align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Fluxionics&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=es" alt="Racha de GitHub" height="180">
-</td>
-<td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api/wakatime?username=Fluxionics&theme=tokyonight&hide_border=true" alt="WakaTime" height="180">
-</td>
-</tr>
-</table>
-
----
-
-<div align="center">
-<img src="./iconos/games.svg" width="100%" alt="Stack Tecnológico">
-</div>
-
-## 🛠 Stack Tecnológico
-
-<div align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,java,git,github,vscode,linux,docker,postgresql,mongodb,tailwind,figma&perline=12" alt="Tecnologías">
 </div>
 
 <br>
 
 <table>
 <tr>
-<td width="33%" valign="top">
 
-### **Frontend**
-`HTML5` · `CSS3` · `JavaScript` · `TypeScript`  
-`React` · `Next.js` · `Tailwind CSS`
+<td width="60%" valign="top">
 
-</td>
-<td width="33%" valign="top">
+# Hola, soy Fluxionics
 
-### **Backend**
-`Node.js` · `Python` · `Java`  
-`REST APIs` · `GraphQL` · `WebSockets`
+Me gusta **crear, experimentar y aprender haciendo**.
 
-</td>
-<td width="33%" valign="top">
+No tengo todo perfectamente planeado ni pretendo saberlo todo. Muchas veces simplemente aparece una idea, empiezo a investigar cómo podría hacerla y termino aprendiendo un montón de cosas durante el proceso.
 
-### **Herramientas y DevOps**
-`Git` · `GitHub` · `VS Code`  
-`Linux` · `Docker` · `CI/CD`  
-`PostgreSQL` · `MongoDB`
+La tecnología para mí es una mezcla de:
+
+**curiosidad + creatividad + prueba y error.**
+
+Me gusta descubrir cómo funcionan las cosas, construirlas por mi cuenta y después pensar:
+
+> **"¿Y si lo hacemos mejor?"**
+
+Y aquí empieza el problema.
 
 </td>
-</tr>
-</table>
 
----
+<td width="40%" valign="top">
 
 <div align="center">
-<img src="./iconos/timeline.svg" width="100%" alt="Mi Forma de Aprender">
-</div>
-
-## 🎯 Proyectos Destacados
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### 🌟 **Nombre del Proyecto**
-**Tech:** `React` · `TypeScript` · `Node.js`  
-Una breve descripción de qué hace este proyecto y por qué importa.  
-[🔗 Repositorio](https://github.com/Fluxionics) • [🌐 Demo](#)
-
-</td>
-<td width="50%" valign="top">
-
-### 🌟 **Nombre del Proyecto**
-**Tech:** `Python` · `FastAPI` · `PostgreSQL`  
-Una breve descripción de qué hace este proyecto y por qué importa.  
-[🔗 Repositorio](https://github.com/Fluxionics) • [🌐 Demo](#)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### 🌟 **Nombre del Proyecto**
-**Tech:** `Next.js` · `Tailwind` · `Vercel`  
-Una breve descripción de qué hace este proyecto y por qué importa.  
-[🔗 Repositorio](https://github.com/Fluxionics) • [🌐 Demo](#)
-
-</td>
-<td width="50%" valign="top">
-
-### 🌟 **Nombre del Proyecto**
-**Tech:** `Java` · `Spring Boot` · `Docker`  
-Una breve descripción de qué hace este proyecto y por qué importa.  
-[🔗 Repositorio](https://github.com/Fluxionics) • [🌐 Demo](#)
-
-</td>
-</tr>
-</table>
-
-> **¿Quieres ver más?** Revisa mis [repositorios](https://github.com/Fluxionics?tab=repositories) para la colección completa.
-
----
-
-<div align="center">
-<img src="./iconos/mini-terminal.svg" width="100%" alt="Modo Desarrollador">
-</div>
-
-## 💻 Flujo de Trabajo
-
-<table>
-<tr>
-<td width="50%" align="center">
-
-### **CUANDO FUNCIONA**
 
 ```text
-¿Funciona?
-     ↓
-NO TOCAR
-     ↓
-CERRAR EDITOR
-     ↓
-DEPLOY 🚀
+╭──────────────────────────────╮
+│       FLUXIONICS.EXE         │
+├──────────────────────────────┤
+│                              │
+│  STATUS       ONLINE         │
+│  MODE         BUILD          │
+│  CURIOSITY    MAX            │
+│  IDEAS        TOO MANY       │
+│  BUGS         CLASSIFIED     │
+│  SLEEP        NOT FOUND      │
+│                              │
+│  SYSTEM: WORKING*            │
+│                              │
+╰──────────────────────────────╯
+
+* técnicamente
+```
+
+</div>
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+---
+
+<div align="center">
+
+# QUIÉN SOY
+
+</div>
+
+<table>
+<tr>
+
+<td width="33%" align="center">
+
+### CURIOSO
+
+Si algo llama mi atención, probablemente terminaré investigándolo hasta entenderlo.
+
+</td>
+
+<td width="33%" align="center">
+
+### CREADOR
+
+Me gusta que las ideas terminen convertidas en algo que realmente pueda usar.
+
+</td>
+
+<td width="33%" align="center">
+
+### EXPERIMENTADOR
+
+Aprendo probando. A veces funciona a la primera.
+
+Normalmente no.
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+## MI FORMA DE APRENDER
+
+```text
+IDEA
+  ↓
+PRUEBA
+  ↓
+ERROR
+  ↓
+INVESTIGACIÓN
+  ↓
+ARREGLO
+  ↓
+"AHHHHH"
+  ↓
+MEJORA
+  ↓
+NUEVA IDEA
 ```
 
 </td>
-<td width="50%" align="center">
 
-### **CUANDO SE ROMPE**
+<td width="50%" valign="top">
+
+## MI FILOSOFÍA
 
 ```text
-Debug
+No sé
   ↓
-Investigar
+Lo investigo
   ↓
-Probar Fix
+Lo pruebo
   ↓
-Romper otra cosa
+No funciona
   ↓
-Arreglar eso también
+Lo vuelvo a intentar
   ↓
-Aprender algo nuevo
+Ahora funciona
   ↓
-DEPLOY 🚀
+No tocar nada
 ```
 
 </td>
+
 </tr>
 </table>
 
 ---
 
 <div align="center">
-<img src="./iconos/discord.svg" width="100%" alt="Conectar">
-</div>
 
-## 🤝 Conectemos
+# MI STACK
 
-<table align="center">
-<tr>
-<td align="center" width="20%">
-<a href="https://github.com/Fluxionics"><img src="https://skillicons.dev/icons?i=github" width="48" height="48" alt="GitHub"><br><b>GitHub</b></a>
-</td>
-<td align="center" width="20%">
-<a href="https://discord.com/users/1084725255727239270"><img src="https://skillicons.dev/icons?i=discord" width="48" height="48" alt="Discord"><br><b>Discord</b></a>
-</td>
-<td align="center" width="20%">
-<a href="mailto:fluxionics.dev@gmail.com"><img src="https://skillicons.dev/icons?i=gmail" width="48" height="48" alt="Email"><br><b>Email</b></a>
-</td>
-<td align="center" width="20%">
-<a href="https://linkedin.com/in/fluxionics"><img src="https://skillicons.dev/icons?i=linkedin" width="48" height="48" alt="LinkedIn"><br><b>LinkedIn</b></a>
-</td>
-<td align="center" width="20%">
-<a href="https://twitter.com/fluxionics"><img src="https://skillicons.dev/icons?i=twitter" width="48" height="48" alt="Twitter"><br><b>Twitter</b></a>
-</td>
-</tr>
-</table>
-
-<br>
-
----
-
-<div align="center">
-<img src="./iconos/footer.svg" width="100%" alt="Fluxionics">
-
-<br><br>
-
-### **APRENDER → CONSTRUIR → ROMPER → ARREGLAR → MEJORAR → REPETIR**
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,git,github,vscode,linux&perline=10">
 
 <br><br>
 
 <sub>
-<b>Fluxionics</b> — Construyendo el futuro, un commit a la vez.<br>
-<i>No sé exactamente dónde voy a terminar.<br>Pero seguro estaré intentando construir algo por el camino.</i>
+Herramientas con las que experimento, aprendo y construyo.
+</sub>
+
+</div>
+
+<br>
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### DESARROLLO
+
+```text
+HTML
+CSS
+JavaScript
+TypeScript
+Python
+Java
+```
+
+</td>
+
+<td width="50%" valign="top">
+
+### ENTORNO
+
+```text
+Git
+GitHub
+VS Code
+Linux
+Terminal
+Automatización
+```
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+# ESTADÍSTICAS
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Fluxionics&bg_color=0D1117&color=37E8FF&line=00D9FF&point=FFFFFF&area=true&hide_border=true&custom_title=Actividad%20en%20GitHub" width="96%">
+
+</div>
+
+<br>
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### ESTADÍSTICAS REALES
+
+| Métrica           |      Estado      |
+| :---------------- | :--------------: |
+| Curiosidad        |       100%       |
+| Ganas de aprender |         ∞        |
+| Ideas repentinas  |    Demasiadas    |
+| "Solo un cambio"  |       100%       |
+| Bugs              | En investigación |
+| Dormir temprano   |     Error 404    |
+
+</td>
+
+<td width="50%" valign="top">
+
+### ESTADO ACTUAL
+
+```text
+╭──────────────────────────╮
+│ FLUXIONICS STATUS        │
+├──────────────────────────┤
+│                          │
+│ Código       ████████░░  │
+│ Curiosidad   ██████████  │
+│ Creatividad  █████████░  │
+│ Paciencia    ███████░░░  │
+│ Sueño        ██░░░░░░░░  │
+│ Café         ██████████  │
+│                          │
+╰──────────────────────────╯
+```
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+# GAME ZONE
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:071019,100:0B2630&height=90&section=header&text=GAME%20ZONE&fontSize=35&fontColor=37E8FF&animation=fadeIn" width="100%">
+
+</div>
+
+<br>
+
+<table>
+<tr>
+
+<td width="50%" align="center">
+
+## MINECRAFT
+
+Uno de esos juegos donde entras diciendo:
+
+**"Voy a jugar un rato."**
+
+Y mágicamente desaparecen cuatro horas.
+
+```text
+Nivel de obsesión
+
+████████████████████ 100%
+```
+
+</td>
+
+<td width="50%" align="center">
+
+## ROBLOX
+
+Otro lugar donde una idea pequeña puede convertirse misteriosamente en algo mucho más grande.
+
+```text
+Nivel de obsesión
+
+████████████████░░░░  80%
+```
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+**"Una partida rápida"**
+
+```text
+03:47:21
+```
+
+</div>
+
+---
+
+# COSAS QUE ME GUSTAN
+
+<table>
+<tr>
+
+<td width="25%" align="center">
+
+### PROGRAMAR
+
+Crear y experimentar con código.
+
+</td>
+
+<td width="25%" align="center">
+
+### TECNOLOGÍA
+
+Descubrir herramientas y aprender cómo funcionan.
+
+</td>
+
+<td width="25%" align="center">
+
+### VIDEOJUEGOS
+
+Especialmente cuando puedo construir o experimentar.
+
+</td>
+
+<td width="25%" align="center">
+
+### PERSONALIZAR
+
+Hacer que las cosas se sientan realmente mías.
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# UN POCO DE MI HISTORIA
+
+<div align="center">
+
+```text
+┌────────────┐
+│ CURIOSIDAD │
+└─────┬──────┘
+      ↓
+┌────────────┐
+│ EXPERIMENTO │
+└─────┬──────┘
+      ↓
+┌────────────┐
+│    CAOS    │
+└─────┬──────┘
+      ↓
+┌────────────┐
+│ APRENDIZAJE│
+└─────┬──────┘
+      ↓
+┌────────────┐
+│   MEJORA   │
+└─────┬──────┘
+      ↓
+┌────────────┐
+│  REPETIR   │
+└────────────┘
+```
+
+</div>
+
+Desde que empecé a interesarme cada vez más por la tecnología, he ido aprendiendo principalmente de una manera:
+
+**hacer cosas.**
+
+No todo sale bien.
+
+No todo sale bonito.
+
+Y definitivamente no todo sale a la primera.
+
+Pero cada error termina enseñando algo.
+
+---
+
+# MI MODO DESARROLLADOR
+
+<table>
+<tr>
+
+<td width="50%" align="center">
+
+### CUANDO FUNCIONA
+
+```text
+¿Funciona?
+   │
+   ▼
+NO TOCAR.
+   │
+   ▼
+CERRAR EDITOR.
+   │
+   ▼
+FIN.
+```
+
+</td>
+
+<td width="50%" align="center">
+
+### CUANDO NO FUNCIONA
+
+```text
+Revisar
+  ↓
+Buscar
+  ↓
+Probar
+  ↓
+Romper otra cosa
+  ↓
+Arreglar
+  ↓
+Aprender
+```
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+# DISCORD
+
+<a href="https://discord.com/users/1084725255727239270">
+
+<img src="https://img.shields.io/badge/Discord-Fluxionics-5865F2?style=for-the-badge&logo=discord&logoColor=FFFFFF">
+
+</a>
+
+<br><br>
+
+`1084725255727239270`
+
+<br>
+
+<sub>
+Mi rincón de Discord.
+</sub>
+
+</div>
+
+---
+
+# ALGUNAS VERDADES
+
+<div align="center">
+
+| Frase                          | Resultado                |
+| :----------------------------- | :----------------------- |
+| "Solo voy a cambiar una cosa." | Mentira                  |
+| "Esto debería ser fácil."      | Famosas últimas palabras |
+| "Ya sé qué pasa."              | Probablemente no         |
+| "Ya quedó."                    | No necesariamente        |
+| "Lo dejo para mañana."         | 03:00 AM                 |
+| "No voy a añadir nada más."    | Se añadió algo más       |
+
+</div>
+
+---
+
+<div align="center">
+
+# TERMINAL MENTAL
+
+```bash
+$ whoami
+Fluxionics
+
+$ status
+learning
+
+$ mode
+creating
+
+$ motivation
+100%
+
+$ bugs
+features
+
+$ sleep
+not_found
+
+$ give_up
+false
+
+$ continue
+true
+```
+
+<br>
+
+### CREAR · ROMPER · APRENDER · ARREGLAR · REPETIR
+
+<br>
+
+<sub>
+Construido con curiosidad, código y una cantidad cuestionable de tiempo.
 </sub>
 
 <br><br>
 
-![Visitas al Perfil](https://komarev.com/ghpvc/?username=Fluxionics&color=37E8FF&style=flat-square&label=Visitas+al+Perfil)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:0B2630,100:05080D&height=130&section=footer" width="100%">
 
 </div>
