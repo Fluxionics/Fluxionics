@@ -1,122 +1,197 @@
-# Hi, I'm Fluxionics
+<div align="center">
 
-### Developer • Creator • Builder
+# ⚡ Fluxionics
 
-I build digital projects focused on **web development, interactive applications, automation and gaming technologies**.
+### Desarrollo · Tecnología · Inteligencia Artificial · Proyectos
 
-I'm interested in turning ideas into functional, polished and useful software — from web applications and tools to experimental projects and game systems.
+**Creo proyectos digitales, experimento con nuevas tecnologías y convierto ideas en productos funcionales.**
 
----
+<br>
 
-## About Me
+[![Portafolio](https://img.shields.io/badge/🌐_Mi_Portafolio-Visitar-00BCD4?style=for-the-badge)](https://droncito.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Fluxionics-181717?style=for-the-badge\&logo=github)](https://github.com/Fluxionics)
 
-* Developing independent software and web projects
-* Interested in modern web technologies and interactive experiences
-* Building tools, experiments and game-related projects
-* Learning continuously through real-world projects
-* Focused on creating clean, functional and practical solutions
+</div>
 
 ---
 
-## Technologies & Tools
+## 👋 Sobre mí
 
-### Languages
+Soy **Fluxionics**, desarrollador y creador de proyectos digitales.
+
+Me gusta aprender construyendo. En lugar de limitarme a estudiar una tecnología, intento llevarla a un proyecto real, probar sus posibilidades y mejorar el resultado mediante la práctica.
+
+Actualmente me interesa especialmente el desarrollo de **aplicaciones web, inteligencia artificial, interfaces interactivas, automatización, videojuegos y herramientas digitales**.
+
+También disfruto experimentar con ideas que combinan diferentes tecnologías para crear experiencias más completas.
+
+---
+
+## 🧠 En qué trabajo
+
+Mi enfoque principal está en:
+
+* 🌐 Desarrollo de aplicaciones web
+* 🤖 Inteligencia artificial e integración de IA
+* 🎨 Diseño de interfaces y experiencias interactivas
+* ⚙️ Automatización y herramientas digitales
+* 🎮 Desarrollo de proyectos relacionados con videojuegos
+* 🔧 Experimentación tecnológica
+* 📚 Aprendizaje mediante proyectos reales
+
+---
+
+## 🚀 Mi portafolio
+
+### 🤖 Portafolio con Inteligencia Artificial
+
+Mi portafolio personal reúne información sobre mis proyectos, tecnologías y trabajo, incorporando una experiencia basada en inteligencia artificial.
+
+**Visítalo:**
+
+[![Abrir portafolio](https://img.shields.io/badge/ABRIR_PORTAFOLIO-00BCD4?style=for-the-badge\&logo=vercel\&logoColor=white)](https://droncito.vercel.app/)
+
+> El objetivo no es solamente mostrar proyectos, sino crear una experiencia diferente para conocer mi trabajo.
+
+---
+
+## 🛠️ Tecnologías
+
+### Desarrollo web
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square\&logo=html5\&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square\&logo=css3\&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square\&logo=kotlin\&logoColor=white)
 
-### Tools & Platforms
+### Plataformas y herramientas
 
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square\&logo=git\&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square\&logo=github\&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square\&logo=vercel\&logoColor=white)
+
+### Otras tecnologías
+
 ![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square\&logo=android\&logoColor=white)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square\&logo=kotlin\&logoColor=white)
 ![Minecraft](https://img.shields.io/badge/Minecraft-62B47A?style=flat-square\&logo=minecraft\&logoColor=white)
 
 ---
 
-## Featured Project
+# 📂 Proyectos destacados
 
-### Fluxionics
+## ⚡ Fluxionics
 
-**Fluxionics — Professional Circuit Simulator**
+**Simulador profesional de circuitos**
 
-An interactive web-based project focused on electronics and circuit simulation.
+Proyecto enfocado en crear una plataforma web interactiva para aprender, diseñar y experimentar con circuitos electrónicos.
 
-The project aims to provide an accessible environment for designing and experimenting with electronic circuits directly from the browser.
+### Características
 
-**Main concepts:**
+* Diseño de circuitos
+* Componentes electrónicos
+* Calculadoras eléctricas
+* Ejemplos interactivos
+* Tutoriales
+* Herramientas educativas
+* Experimentos con simulación
+* Interfaz interactiva
 
-* Interactive circuit design
-* Electronic component library
-* Electrical calculators
-* Circuit examples
-* Tutorials and educational content
-* Virtual measurement tools
-* Interactive learning experiences
-
----
-
-## Other Projects
-
-### Dropix — Fluxionics
-
-A project focused on experimentation and development under the Fluxionics ecosystem.
-
-### Minecraft Addons
-
-Development and experimentation with custom Minecraft gameplay systems, addons and multiplayer mechanics.
+🔗 **Repositorio:**
+https://github.com/Fluxionics/Dropix-Fluxionics
 
 ---
 
-## What I'm Working On
+## 🧩 Proyectos para Minecraft
+
+También desarrollo y experimento con sistemas personalizados para Minecraft, incluyendo addons, mecánicas de juego y experiencias multijugador.
+
+Algunos proyectos exploran:
+
+* Sistemas PvP
+* Modos de juego
+* Mecánicas personalizadas
+* Interfaces
+* Addons
+* Sistemas multijugador
+
+🔗 **Repositorio de addons:**
+https://github.com/Fluxionics/addons-fluxionics-mc
+
+---
+
+# 🎯 Actualmente
+
+Estoy trabajando en nuevos proyectos y experimentando con diferentes tecnologías.
+
+Mi objetivo es seguir mejorando en:
 
 ```text
-Web Development       ███████████████████░░  90%
-Interactive Systems   █████████████████░░░░  80%
-Game Development      ███████████████░░░░░  70%
-UI / UX               ████████████████░░░░  75%
-Electronics           ██████████████░░░░░░  65%
+Desarrollo Web             ███████████████████░
+Inteligencia Artificial    █████████████████░░░
+Interfaces / UI            █████████████████░░░
+Sistemas Interactivos      ████████████████░░░░
+Videojuegos                ███████████████░░░░░
+Electrónica                ██████████████░░░░░░
 ```
 
----
-
-## Development Philosophy
-
-> Build it. Test it. Improve it.
-
-I prefer learning by creating real projects, experimenting with new technologies and continuously improving what I build.
+> Estos indicadores representan mis áreas actuales de interés y desarrollo, no niveles oficiales de experiencia.
 
 ---
 
-## GitHub Activity
+# 💡 Cómo desarrollo
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Fluxionics\&show_icons=true\&hide_border=true\&theme=transparent)
+### 01 — Idea
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Fluxionics\&layout=compact\&hide_border=true\&theme=transparent)
+Todo comienza con una idea o un problema que quiero resolver.
+
+### 02 — Experimentación
+
+Investigo, pruebo diferentes tecnologías y construyo una primera versión.
+
+### 03 — Desarrollo
+
+Convierto el prototipo en algo funcional y usable.
+
+### 04 — Mejora
+
+Pruebo, encuentro errores, cambio lo necesario y sigo mejorando.
+
+### 05 — Publicación
+
+Cuando el proyecto está listo, lo publico para que otras personas puedan utilizarlo o conocerlo.
 
 ---
 
-## Contribution Graph
+# 🌐 Encuéntrame
 
-![GitHub Streak](https://streak-stats.demolab.com?user=Fluxionics\&hide_border=true\&theme=transparent)
+<div align="center">
+
+[![Portafolio](https://img.shields.io/badge/Portafolio-droncito.vercel.app-00BCD4?style=for-the-badge\&logo=vercel\&logoColor=white)](https://droncito.vercel.app/)
+
+[![GitHub](https://img.shields.io/badge/GitHub-Fluxionics-181717?style=for-the-badge\&logo=github)](https://github.com/Fluxionics)
+
+</div>
 
 ---
 
-## Let's Build Something
+## 📌 Filosofía
 
-I'm always interested in experimenting with new ideas, developing projects and learning new technologies.
+> **No necesito saberlo todo para empezar.
+> Necesito empezar para aprender.**
 
-If you find something interesting in my repositories, feel free to explore the code and follow the project.
+La mayoría de mis conocimientos vienen de construir proyectos, equivocarme, investigar y volver a intentarlo.
 
 ---
 
 <div align="center">
 
-### Fluxionics
+## ⚡ Fluxionics
 
-**Building ideas into software.**
+**Construyendo ideas, aprendiendo tecnologías y creando proyectos.**
+
+<br>
+
+<img src="https://komarev.com/ghpvc/?username=Fluxionics&style=flat-square&color=00BCD4" alt="Visitas al perfil">
 
 </div>
+
