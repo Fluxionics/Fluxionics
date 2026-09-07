@@ -1,16 +1,20 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:101B2D,100:00D9FF&height=220&section=header&text=FLUXIONICS&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=Desarrollo%20%7C%20Tecnología%20%7C%20Cosas%20que%20probablemente%20no%20debí%20empezar&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
+<img src="./iconos/header.svg" width="100%" alt="Fluxionics">
 
-<br>
+<br><br>
 
 <a href="https://github.com/Fluxionics">
-<img src="https://img.shields.io/badge/GitHub-Fluxionics-0D1117?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GITHUB-Fluxionics-0D1117?style=for-the-badge&logo=github&logoColor=white">
 </a>
 &nbsp;
-<img src="https://img.shields.io/badge/Estado-Compilando...-00D9FF?style=for-the-badge"/>
-&nbsp;
-<img src="https://img.shields.io/badge/Café-Necesario-101B2D?style=for-the-badge"/>
+<a href="https://discord.com/users/1084725255727239270">
+<img src="https://img.shields.io/badge/DISCORD-1084725255727239270-5865F2?style=for-the-badge&logo=discord&logoColor=white">
+</a>
+
+<br><br>
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=37E8FF&center=true&vCenter=true&width=700&lines=Desarrollando+ideas;Aprendiendo+todos+los+d%C3%ADas;Probando+cosas+que+probablemente+no+deber%C3%ADa;Y+arreglando+lo+que+romp%C3%AD" alt="Animación de texto">
 
 </div>
 
@@ -18,46 +22,77 @@
 
 <table>
 <tr>
-<td width="55%" valign="top">
 
-## Hola, soy Fluxionics
+<td width="60%" valign="top">
 
-Me gusta crear cosas, experimentar con tecnología y descubrir cuánto puedo romper antes de descubrir cómo arreglarlo.
+# Hola, soy Fluxionics
 
-No intento saberlo todo.
+Me gusta **crear, experimentar y aprender haciendo**.
 
-Intento **entender cómo funciona, probarlo y mejorarlo**.
+No soy de quedarme esperando a saberlo todo para comenzar algo. Normalmente empiezo con una idea, intento construirla y en el camino descubro veinte cosas que no sabía.
 
-Actualmente estoy enfocado en seguir aprendiendo desarrollo, automatización, interfaces y todo lo que tenga la suficiente complejidad como para decir:
+La tecnología terminó convirtiéndose en una mezcla bastante curiosa de:
 
-> "Esto debería ser fácil."
+**curiosidad + creatividad + problemas inesperados.**
 
-Spoiler: nunca lo es.
+Me gusta descubrir cómo funcionan las cosas, intentar hacerlas por mi cuenta y mejorar lo que ya hice.
+
+Y sí...
+
+A veces digo:
+
+> **"Solo voy a cambiar una cosa."**
+
+Todos sabemos cómo termina eso.
+
+</td>
+
+<td width="40%" valign="top">
+
+<img src="./iconos/about.svg" width="100%" alt="Sobre Fluxionics">
 
 </td>
 
-<td width="45%" valign="top">
+</tr>
+</table>
 
-```text
-┌─────────────────────────────┐
-│       FLUXIONICS.EXE        │
-├─────────────────────────────┤
-│                             │
-│  > Iniciando...             │
-│  > Cargando ideas...        │
-│  > Compilando...            │
-│  > Buscando el error...     │
-│                             │
-│  [███████████████░░░] 87%   │
-│                             │
-│  Estado: FUNCIONANDO*       │
-│                             │
-└─────────────────────────────┘
+<br>
 
-* técnicamente
-```
+---
+
+<div align="center">
+
+# SOBRE MÍ
+
+</div>
+
+<table>
+<tr>
+
+<td width="33%" align="center">
+
+### PROGRAMADOR
+
+Me gusta construir cosas desde cero, experimentar con código y encontrar soluciones aunque al principio no tenga ni idea de cómo hacerlo.
 
 </td>
+
+<td width="33%" align="center">
+
+### CURIOSO
+
+Cuando algo llama mi atención, normalmente termino investigándolo hasta entender cómo funciona.
+
+</td>
+
+<td width="33%" align="center">
+
+### CREADOR
+
+Prefiero aprender construyendo algo real que pasar horas leyendo teoría sin probarla.
+
+</td>
+
 </tr>
 </table>
 
@@ -65,308 +100,442 @@ Spoiler: nunca lo es.
 
 <div align="center">
 
-## ¿Qué hago?
-
-<table>
-<tr>
-<td align="center" width="25%">
-
-### Código
-
-Creo, modifico y experimento con software.
-
-</td>
-
-<td align="center" width="25%">
-
-### Web
-
-Interfaces, sistemas y experiencias web.
-
-</td>
-
-<td align="center" width="25%">
-
-### Tecnología
-
-Me gusta entender cómo funcionan las cosas.
-
-</td>
-
-<td align="center" width="25%">
-
-### Experimentos
-
-La parte donde empiezan los problemas.
-
-</td>
-</tr>
-</table>
+<img src="./iconos/stats.svg" width="92%" alt="Estadísticas personales">
 
 </div>
 
 <br>
 
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+## PERSONALIDAD
+
+```text
+Curiosidad        ████████████████████ 100%
+Creatividad       ██████████████████░░  92%
+Experimentar      ███████████████████░  97%
+Aprender          ████████████████████ 100%
+Paciencia         ██████████████░░░░░░  74%
+Dormir temprano   ███░░░░░░░░░░░░░░░░  17%
+```
+
+</td>
+
+<td width="50%" valign="top">
+
+## ESTADO ACTUAL
+
+```text
+Estado       : ONLINE
+Modo         : CREANDO
+Curiosidad   : ALTA
+Ideas        : DEMASIADAS
+Sueño        : PENDIENTE
+Bugs         : EN INVESTIGACIÓN
+Motivación   : 100%
+```
+
+</td>
+
+</tr>
+</table>
+
 ---
 
-## Mi forma de trabajar
+<div align="center">
 
-<details>
-<summary><b>01 · Tengo una idea</b></summary>
-
-<br>
-
-Primero digo:
-
-**"Esto estaría fácil."**
-
-Después abro el editor.
-
-Después descubro que no estaba fácil.
-
-Después sigo.
-
-</details>
-
-<details>
-<summary><b>02 · Algo no funciona</b></summary>
+# TECNOLOGÍA
 
 <br>
 
-Mi proceso científico:
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,git,github,vscode,linux&perline=10">
+
+<br><br>
+
+<sub>
+No son porcentajes de habilidad.
+Son herramientas con las que me gusta experimentar.
+</sub>
+
+</div>
+
+<br>
+
+<table>
+<tr>
+
+<td width="50%">
+
+### WEB
+
+```text
+HTML
+CSS
+JavaScript
+TypeScript
+Interfaces
+Diseño web
+```
+
+</td>
+
+<td width="50%">
+
+### PROGRAMACIÓN
+
+```text
+Python
+Java
+Automatización
+Lógica
+Experimentación
+Sistemas
+```
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+# GAME ZONE
+
+<img src="./iconos/games.svg" width="92%" alt="Juegos">
+
+</div>
+
+<br>
+
+<table>
+<tr>
+
+<td align="center" width="50%">
+
+### MINECRAFT
+
+Construir, configurar, experimentar y terminar convirtiendo algo que parecía sencillo en un proyecto de varias horas.
+
+**Nivel de obsesión**
+
+`████████████████████` 100%
+
+</td>
+
+<td align="center" width="50%">
+
+### ROBLOX
+
+Crear, probar cosas, experimentar y preguntarme por qué decidí complicarme la vida otra vez.
+
+**Nivel de obsesión**
+
+`████████████████░░░░` 80%
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+<div align="center">
+
+**"Una partida rápida."**
+
+`03:47:21`
+
+</div>
+
+---
+
+# COSAS QUE ME GUSTAN
+
+<table>
+<tr>
+
+<td width="25%" align="center">
+
+### CÓDIGO
+
+Crear cosas y ver cómo pasan de una idea a algo real.
+
+</td>
+
+<td width="25%" align="center">
+
+### TECNOLOGÍA
+
+Descubrir herramientas nuevas y probar hasta encontrarles utilidad.
+
+</td>
+
+<td width="25%" align="center">
+
+### VIDEOJUEGOS
+
+Especialmente cuando puedo construir, experimentar o perder demasiado tiempo.
+
+</td>
+
+<td width="25%" align="center">
+
+### PERSONALIZAR
+
+Me gusta modificar interfaces, sistemas y cosas hasta que se sientan realmente mías.
+
+</td>
+
+</tr>
+</table>
+
+---
+
+# MI HISTORIA
+
+<div align="center">
+
+<img src="./iconos/timeline.svg" width="95%" alt="Línea de tiempo">
+
+</div>
+
+<br>
+
+<table>
+<tr>
+
+<td align="center" width="20%">
+
+### 01
+
+**CURIOSIDAD**
+
+Empiezo a preguntarme cómo funcionan las cosas.
+
+</td>
+
+<td align="center" width="20%">
+
+### 02
+
+**EXPERIMENTOS**
+
+Empiezo a probar.
+
+</td>
+
+<td align="center" width="20%">
+
+### 03
+
+**CAOS**
+
+Algo inevitablemente deja de funcionar.
+
+</td>
+
+<td align="center" width="20%">
+
+### 04
+
+**APRENDIZAJE**
+
+Descubro por qué falló.
+
+</td>
+
+<td align="center" width="20%">
+
+### 05
+
+**REPETIR**
+
+Ahora quiero hacerlo mejor.
+
+</td>
+
+</tr>
+</table>
+
+<br>
+
+> Mi camino no ha sido perfecto ni completamente planeado.
+>
+> Ha sido más parecido a **probar → equivocarme → aprender → volver a intentar**.
+
+---
+
+# MODO DESARROLLADOR
+
+<div align="center">
+
+```text
+╔══════════════════════════════════════════════╗
+║               FLUXIONICS.EXE                ║
+╠══════════════════════════════════════════════╣
+║                                              ║
+║  STATUS       : ONLINE                       ║
+║  MODE         : BUILD                        ║
+║  CURIOSITY    : MAX                          ║
+║  IDEAS        : TOO MANY                     ║
+║  BUGS         : CLASSIFIED                   ║
+║  COFFEE       : OPTIONAL*                    ║
+║                                              ║
+║  * mentira                                   ║
+║                                              ║
+╚══════════════════════════════════════════════╝
+```
+
+</div>
+
+<br>
+
+<table>
+<tr>
+
+<td width="50%" valign="top">
+
+### CUANDO ALGO FUNCIONA
 
 ```text
 ¿Funciona?
-   │
-   ├── Sí ──► No tocar nada.
-   │
-   └── No ──► Revisar.
-                │
-                ▼
-             Buscar.
-                │
-                ▼
-          Probar algo.
-                │
-                ▼
-          Romper otra cosa.
-                │
-                ▼
-             Arreglar.
-```
-
-</details>
-
-<details>
-<summary><b>03 · Finalmente funciona</b></summary>
-
-<br>
-
-No sé exactamente por qué.
-
-Pero funciona.
-
-Y eso, por ahora, es suficiente.
-
-```text
-Build successful.
-Confidence: questionable.
-```
-
-</details>
-
-<br>
-
----
-
-<div align="center">
-
-## Herramientas que forman parte del caos
-
-<br>
-
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,git,github,vscode,linux,vercel&perline=11" />
-
-</div>
-
-<br>
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### Lo que me interesa
-
-```text
-▸ Desarrollo web
-▸ Programación
-▸ Automatización
-▸ Interfaces
-▸ Sistemas
-▸ Nuevas tecnologías
-▸ Aprender haciendo
+    │
+    ├── Sí
+    │
+    ▼
+NO TOCAR NADA
 ```
 
 </td>
 
 <td width="50%" valign="top">
 
-### Lo que estoy mejorando
+### CUANDO ALGO NO FUNCIONA
 
 ```text
-▸ Arquitectura
-▸ Código más limpio
-▸ Rendimiento
-▸ Seguridad
-▸ Experiencia de usuario
-▸ Buenas prácticas
-▸ No hacer todo a las 3 AM
+Revisar
+   ↓
+Buscar
+   ↓
+Probar
+   ↓
+Romper otra cosa
+   ↓
+Arreglar
+   ↓
+Aprender
 ```
 
 </td>
+
 </tr>
 </table>
 
 ---
 
-## Un poco más sobre mí
-
-<details>
-<summary><b>¿Por qué "Fluxionics"?</b></summary>
-
-<br>
-
-Porque necesitaba un nombre.
-
-El nombre se quedó.
-
-Ahora ya es demasiado tarde para cambiarlo.
-
-</details>
-
-<details>
-<summary><b>¿Soy experto?</b></summary>
-
-<br>
-
-No.
-
-Y tampoco voy a fingir que sí.
-
-Hay muchísimo que todavía quiero aprender.
-
-Pero si algo no lo sé, lo investigo, lo pruebo y sigo hasta entenderlo.
-
-</details>
-
-<details>
-<summary><b>¿Qué pasa cuando algo falla?</b></summary>
-
-<br>
-
-Primero:
-
-`"¿Qué hice?"`
-
-Después:
-
-`"¿Por qué hice eso?"`
-
-Finalmente:
-
-`"Bueno... ya sé qué NO hacer."`
-
-Experiencia adquirida.
-
-</details>
-
----
+# ESTADÍSTICAS TOTALMENTE OFICIALES
 
 <div align="center">
 
-## Filosofía
+| Métrica                               |         Valor         |
+| :------------------------------------ | :-------------------: |
+| Ideas repentinas                      |           ∞           |
+| "Solo será un cambio"                 |          100%         |
+| Bugs convertidos en aprendizaje       |          100%         |
+| Ganas de aprender                     |           ∞           |
+| Proyectos que empezaron pequeños      |       Demasiados      |
+| Veces que algo salió a la primera     | Sospechosamente pocas |
+| Probabilidad de seguir experimentando |          100%         |
+
+</div>
 
 <br>
 
-<table>
-<tr>
-<td align="center">
+<div align="center">
 
-### Aprender
-
-No saber algo no es el problema.
-
-No intentar aprenderlo sí.
-
-</td>
-
-<td align="center">
-
-### Crear
-
-Las ideas sirven más cuando terminan existiendo.
-
-</td>
-
-<td align="center">
-
-### Mejorar
-
-La primera versión solo tiene que existir.
-
-La siguiente puede ser mejor.
-
-</td>
-</tr>
-</table>
-
-<br>
-
-> **"Primero haz que funcione. Después haz que funcione bien."**
+<img src="./iconos/mini-terminal.svg" width="750" alt="Terminal">
 
 </div>
 
 ---
 
-## Terminal mental
+# DISCORD
 
-```bash
-$ whoami
-Fluxionics
+<div align="center">
 
-$ estado
-aprendiendo
+<a href="https://discord.com/users/1084725255727239270">
 
-$ café
-necesario
+<img src="./iconos/discord.svg" width="520" alt="Discord de Fluxionics">
 
-$ errores
-muchos
+</a>
 
-$ experiencia
-+1
+<br>
 
-$ abandonar
-false
+### `1084725255727239270`
 
-$ continuar
-true
-```
+<a href="https://discord.com/users/1084725255727239270">
+Perfil de Discord
+</a>
+
+</div>
 
 ---
 
 <div align="center">
 
-<br>
-
-### Si llegaste hasta aquí...
-
-Probablemente ya viste más de este README de lo que esperaba.
+# EN RESUMEN
 
 <br>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:101B2D,100:0D1117&height=120&section=footer" width="100%"/>
+**Me gusta crear.**
 
-<sub>Hecho con código, curiosidad y probablemente demasiado tiempo.</sub>
+**Me gusta aprender.**
+
+**Me gusta experimentar.**
+
+**Me gustan los videojuegos.**
+
+**Y aparentemente también me gusta complicarme la vida con código.**
+
+<br>
+
+```text
+LEARN
+  ↓
+BUILD
+  ↓
+BREAK
+  ↓
+FIX
+  ↓
+IMPROVE
+  ↓
+REPEAT
+```
+
+<br>
+
+<sub>
+
+No sé exactamente dónde voy a terminar.
+
+Pero seguramente voy a estar intentando construir algo.
+
+</sub>
+
+<br><br>
+
+<img src="./iconos/footer.svg" width="100%" alt="Fluxionics">
+
+<br>
+
+<sub>
+Hecho con curiosidad, código y una cantidad cuestionable de tiempo.
+</sub>
 
 </div>
