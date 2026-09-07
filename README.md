@@ -1,53 +1,53 @@
 <div align="center">
 
-<img src="./iconos/blackhole.gif" width="100%" alt="Fluxionics — Developer Profile">
+<img src="./iconos/blackhole.gif" width="100%" alt="Fluxionics — Perfil de Desarrollador">
 
 <br>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=37E8FF&center=true&vCenter=true&width=900&lines=Full+Stack+Developer;Creative+Problem+Solver;Continuous+Learner;Open+Source+Enthusiast;Building+the+future%2C+one+commit+at+a+time." alt="Animated typing">
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&duration=3000&pause=1200&color=37E8FF&center=true&vCenter=true&width=900&lines=Desarrollador+Full+Stack;Solucionador+Creativo+de+Problemas;Aprendiz+Continuo;Entusiasta+Open+Source;Construyendo+el+futuro%2C+un+commit+a+la+vez." alt="Texto animado">
 
 <br><br>
 
 <a href="https://github.com/Fluxionics"><img src="https://img.shields.io/badge/GitHub-FLUXIONICS-090909?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"></a>
 <a href="https://discord.com/users/1084725255727239270"><img src="https://img.shields.io/badge/Discord-FLUXIONICS-5865F2?style=for-the-badge&logo=discord&logoColor=FFFFFF" alt="Discord"></a>
-<a href="mailto:fluxionics.dev@gmail.com"><img src="https://img.shields.io/badge/Email-CONTACT-D14836?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"></a>
-<img src="https://img.shields.io/badge/STATUS-ACTIVE-37E8FF?style=for-the-badge" alt="Status">
-<img src="https://img.shields.io/badge/OPEN%20SOURCE-CONTRIBUTOR-FF6B6B?style=for-the-badge" alt="Open Source">
+<a href="mailto:fluxionics.dev@gmail.com"><img src="https://img.shields.io/badge/Email-CONTACTO-D14836?style=for-the-badge&logo=gmail&logoColor=FFFFFF" alt="Email"></a>
+<img src="https://img.shields.io/badge/ESTADO-ACTIVO-37E8FF?style=for-the-badge" alt="Estado">
+<img src="https://img.shields.io/badge/OPEN%20SOURCE-CONTRIBUIDOR-FF6B6B?style=for-the-badge" alt="Open Source">
 
 </div>
 
 ---
 
 <div align="center">
-<img src="./iconos/about.svg" width="100%" alt="About Fluxionics">
+<img src="./iconos/about.svg" width="100%" alt="Sobre Fluxionics">
 </div>
 
-## 🚀 About Me
+## 🚀 Sobre Mí
 
-> **"Create first. Understand later. Improve always."**
+> **"Crear primero. Entender después. Mejorar siempre."**
 
-I'm a passionate developer who learns by building. My journey isn't a straight line—it's a cycle of **ideas → experiments → failures → research → fixes → breakthroughs → better solutions**.
+Soy un desarrollador apasionado que aprende construyendo. Mi camino no es una línea recta—es un ciclo de **ideas → experimentos → fallos → investigación → soluciones → avances → mejores soluciones**.
 
-I don't pretend to know everything. I prefer to **explore, experiment, and build**. Every bug is a lesson. Every "it works" moment is a win worth celebrating.
+No finjo saberlo todo. Prefiero **explorar, experimentar y construir**. Cada bug es una lección. Cada momento de "funciona" es una victoria que vale la pena celebrar.
 
 <table>
 <tr>
 <td width="33%" align="center">
 <br>
-<b>🔍 CURIOSITY</b><br><br>
-If something catches my attention,<br>I deep-dive until I understand it.
+<b>🔍 CURIOSIDAD</b><br><br>
+Si algo llama mi atención,<br>investigo hasta entenderlo.
 <br><br>
 </td>
 <td width="33%" align="center">
 <br>
-<b>⚡ CREATION</b><br><br>
-Ideas are the start.<br>Working solutions are the goal.
+<b>⚡ CREACIÓN</b><br><br>
+Las ideas son el inicio.<br>Soluciones funcionales son la meta.
 <br><br>
 </td>
 <td width="33%" align="center">
 <br>
-<b>🧪 EXPERIMENTATION</b><br><br>
-Sometimes it works on try one.<br>Usually it takes a few iterations.
+<b>🧪 EXPERIMENTACIÓN</b><br><br>
+A veces sale a la primera.<br>Normalmente toma unas iteraciones.
 <br><br>
 </td>
 </tr>
@@ -56,18 +56,18 @@ Sometimes it works on try one.<br>Usually it takes a few iterations.
 ---
 
 <div align="center">
-<img src="./iconos/stats.svg" width="100%" alt="Personal Stats">
+<img src="./iconos/stats.svg" width="100%" alt="Estadísticas Personales">
 </div>
 
-## 📊 GitHub Analytics
+## 📊 Analíticas de GitHub
 
 <table>
 <tr>
 <td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=Fluxionics&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" height="180">
+<img src="https://github-readme-stats.vercel.app/api?username=Fluxionics&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true&locale=es" alt="Estadísticas de GitHub" height="180">
 </td>
 <td width="50%" align="center">
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fluxionics&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages" height="180">
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fluxionics&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Lenguajes Principales" height="180">
 </td>
 </tr>
 </table>
@@ -75,7 +75,7 @@ Sometimes it works on try one.<br>Usually it takes a few iterations.
 <table>
 <tr>
 <td width="50%" align="center">
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Fluxionics&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" alt="GitHub Streak" height="180">
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Fluxionics&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&locale=es" alt="Racha de GitHub" height="180">
 </td>
 <td width="50%" align="center">
 <img src="https://github-readme-stats.vercel.app/api/wakatime?username=Fluxionics&theme=tokyonight&hide_border=true" alt="WakaTime" height="180">
@@ -86,13 +86,13 @@ Sometimes it works on try one.<br>Usually it takes a few iterations.
 ---
 
 <div align="center">
-<img src="./iconos/games.svg" width="100%" alt="Tech Stack">
+<img src="./iconos/games.svg" width="100%" alt="Stack Tecnológico">
 </div>
 
-## 🛠 Tech Stack
+## 🛠 Stack Tecnológico
 
 <div align="center">
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,java,git,github,vscode,linux,docker,postgresql,mongodb,tailwind,figma&perline=12" alt="Technologies">
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nextjs,nodejs,python,java,git,github,vscode,linux,docker,postgresql,mongodb,tailwind,figma&perline=12" alt="Tecnologías">
 </div>
 
 <br>
@@ -115,7 +115,7 @@ Sometimes it works on try one.<br>Usually it takes a few iterations.
 </td>
 <td width="33%" valign="top">
 
-### **Tools & DevOps**
+### **Herramientas y DevOps**
 `Git` · `GitHub` · `VS Code`  
 `Linux` · `Docker` · `CI/CD`  
 `PostgreSQL` · `MongoDB`
@@ -127,95 +127,95 @@ Sometimes it works on try one.<br>Usually it takes a few iterations.
 ---
 
 <div align="center">
-<img src="./iconos/timeline.svg" width="100%" alt="Learning Journey">
+<img src="./iconos/timeline.svg" width="100%" alt="Mi Forma de Aprender">
 </div>
 
-## 🎯 Featured Projects
+## 🎯 Proyectos Destacados
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🌟 **Project Name**
+### 🌟 **Nombre del Proyecto**
 **Tech:** `React` · `TypeScript` · `Node.js`  
-A brief description of what this project does and why it matters.  
-[🔗 Repository](https://github.com/Fluxionics) • [🌐 Live Demo](#)
+Una breve descripción de qué hace este proyecto y por qué importa.  
+[🔗 Repositorio](https://github.com/Fluxionics) • [🌐 Demo](#)
 
 </td>
 <td width="50%" valign="top">
 
-### 🌟 **Project Name**
+### 🌟 **Nombre del Proyecto**
 **Tech:** `Python` · `FastAPI` · `PostgreSQL`  
-A brief description of what this project does and why it matters.  
-[🔗 Repository](https://github.com/Fluxionics) • [🌐 Live Demo](#)
+Una breve descripción de qué hace este proyecto y por qué importa.  
+[🔗 Repositorio](https://github.com/Fluxionics) • [🌐 Demo](#)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### 🌟 **Project Name**
+### 🌟 **Nombre del Proyecto**
 **Tech:** `Next.js` · `Tailwind` · `Vercel`  
-A brief description of what this project does and why it matters.  
-[🔗 Repository](https://github.com/Fluxionics) • [🌐 Live Demo](#)
+Una breve descripción de qué hace este proyecto y por qué importa.  
+[🔗 Repositorio](https://github.com/Fluxionics) • [🌐 Demo](#)
 
 </td>
 <td width="50%" valign="top">
 
-### 🌟 **Project Name**
+### 🌟 **Nombre del Proyecto**
 **Tech:** `Java` · `Spring Boot` · `Docker`  
-A brief description of what this project does and why it matters.  
-[🔗 Repository](https://github.com/Fluxionics) • [🌐 Live Demo](#)
+Una breve descripción de qué hace este proyecto y por qué importa.  
+[🔗 Repositorio](https://github.com/Fluxionics) • [🌐 Demo](#)
 
 </td>
 </tr>
 </table>
 
-> **Want to see more?** Check out my [repositories](https://github.com/Fluxionics?tab=repositories) for the complete collection.
+> **¿Quieres ver más?** Revisa mis [repositorios](https://github.com/Fluxionics?tab=repositories) para la colección completa.
 
 ---
 
 <div align="center">
-<img src="./iconos/mini-terminal.svg" width="100%" alt="Developer Mode">
+<img src="./iconos/mini-terminal.svg" width="100%" alt="Modo Desarrollador">
 </div>
 
-## 💻 Developer Workflow
+## 💻 Flujo de Trabajo
 
 <table>
 <tr>
 <td width="50%" align="center">
 
-### **WHEN IT WORKS**
+### **CUANDO FUNCIONA**
 
 ```text
-Does it work?
+¿Funciona?
      ↓
-DON'T TOUCH
+NO TOCAR
      ↓
-CLOSE EDITOR
+CERRAR EDITOR
      ↓
-SHIP IT 🚀
+DEPLOY 🚀
 ```
 
 </td>
 <td width="50%" align="center">
 
-### **WHEN IT BREAKS**
+### **CUANDO SE ROMPE**
 
 ```text
 Debug
   ↓
-Research
+Investigar
   ↓
-Test Fix
+Probar Fix
   ↓
-Break something else
+Romper otra cosa
   ↓
-Fix that too
+Arreglar eso también
   ↓
-Learn something new
+Aprender algo nuevo
   ↓
-SHIP IT 🚀
+DEPLOY 🚀
 ```
 
 </td>
@@ -225,10 +225,10 @@ SHIP IT 🚀
 ---
 
 <div align="center">
-<img src="./iconos/discord.svg" width="100%" alt="Connect">
+<img src="./iconos/discord.svg" width="100%" alt="Conectar">
 </div>
 
-## 🤝 Let's Connect
+## 🤝 Conectemos
 
 <table align="center">
 <tr>
@@ -259,17 +259,17 @@ SHIP IT 🚀
 
 <br><br>
 
-### **LEARN → BUILD → BREAK → FIX → IMPROVE → REPEAT**
+### **APRENDER → CONSTRUIR → ROMPER → ARREGLAR → MEJORAR → REPETIR**
 
 <br><br>
 
 <sub>
-<b>Fluxionics</b> — Building the future, one commit at a time.<br>
-<i>I don't know exactly where I'll end up.<br>But I'll definitely be building something along the way.</i>
+<b>Fluxionics</b> — Construyendo el futuro, un commit a la vez.<br>
+<i>No sé exactamente dónde voy a terminar.<br>Pero seguro estaré intentando construir algo por el camino.</i>
 </sub>
 
 <br><br>
 
-![Profile Views](https://komarev.com/ghpvc/?username=Fluxionics&color=37E8FF&style=flat-square&label=Profile+Views)
+![Visitas al Perfil](https://komarev.com/ghpvc/?username=Fluxionics&color=37E8FF&style=flat-square&label=Visitas+al+Perfil)
 
 </div>
