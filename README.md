@@ -1,248 +1,372 @@
 <div align="center">
 
-# FLUXIONICS
-
-**Desarrollador · Creador · Aprendiendo sobre la marcha**
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:101B2D,100:00D9FF&height=220&section=header&text=FLUXIONICS&fontSize=58&fontColor=FFFFFF&fontAlignY=38&desc=Desarrollo%20%7C%20Tecnología%20%7C%20Cosas%20que%20probablemente%20no%20debí%20empezar&descAlignY=58&descSize=16&animation=fadeIn" width="100%"/>
 
 <br>
 
-[ SOBRE MÍ ] · [ TECNOLOGÍAS ] · [ AHORA MISMO ] · [ CONTACTO ]
+<a href="https://github.com/Fluxionics">
+<img src="https://img.shields.io/badge/GitHub-Fluxionics-0D1117?style=for-the-badge&logo=github&logoColor=white"/>
+</a>
+&nbsp;
+<img src="https://img.shields.io/badge/Estado-Compilando...-00D9FF?style=for-the-badge"/>
+&nbsp;
+<img src="https://img.shields.io/badge/Café-Necesario-101B2D?style=for-the-badge"/>
 
 </div>
 
----
-
-## Hola.
-
-Soy **Fluxionics**.
-
-Me gusta desarrollar cosas, probar tecnologías nuevas y ver hasta dónde puedo llevar una idea antes de que empiece a decirme que no.
-
-No tengo una fórmula mágica para programar.
-
-Normalmente hago esto:
-
-```text
-Idea
- ↓
-"Esto debería ser fácil"
- ↓
-No era fácil
- ↓
-Investigar
- ↓
-Probar
- ↓
-Romper otra cosa
- ↓
-Arreglarlo
- ↓
-"Ahora sí"
-```
-
-Y funciona.
-
-Más o menos.
-
----
-
-## Sobre mí
-
-Me interesa principalmente el mundo del desarrollo y todo lo que tenga que ver con crear cosas desde cero.
-
-Me gusta aprender **haciendo**, experimentar, probar diferentes tecnologías y buscar maneras de hacer que algo no solo funcione, sino que también tenga una buena experiencia al utilizarlo.
-
-No me gusta quedarme demasiado tiempo en:
-
-> "Algún día voy a aprender esto."
-
-Prefiero:
-
-> "A ver qué pasa si lo intento."
-
-Y de ahí sale el aprendizaje.
-
----
-
-<details>
-<summary><b>¿Qué me interesa?</b></summary>
-
 <br>
 
-* Desarrollo web
-* Inteligencia artificial
-* Interfaces y experiencia de usuario
-* Automatización
-* Sistemas interactivos
-* Aplicaciones
-* Tecnología en general
-* Videojuegos y desarrollo relacionado
-* Experimentar con ideas que probablemente empezaron como "y si hacemos esto..."
+<table>
+<tr>
+<td width="55%" valign="top">
 
-</details>
+## Hola, soy Fluxionics
 
----
+Me gusta crear cosas, experimentar con tecnología y descubrir cuánto puedo romper antes de descubrir cómo arreglarlo.
 
-## Tecnologías
+No intento saberlo todo.
+
+Intento **entender cómo funciona, probarlo y mejorarlo**.
+
+Actualmente estoy enfocado en seguir aprendiendo desarrollo, automatización, interfaces y todo lo que tenga la suficiente complejidad como para decir:
+
+> "Esto debería ser fácil."
+
+Spoiler: nunca lo es.
+
+</td>
+
+<td width="45%" valign="top">
+
+```text
+┌─────────────────────────────┐
+│       FLUXIONICS.EXE        │
+├─────────────────────────────┤
+│                             │
+│  > Iniciando...             │
+│  > Cargando ideas...        │
+│  > Compilando...            │
+│  > Buscando el error...     │
+│                             │
+│  [███████████████░░░] 87%   │
+│                             │
+│  Estado: FUNCIONANDO*       │
+│                             │
+└─────────────────────────────┘
+
+* técnicamente
+```
+
+</td>
+</tr>
+</table>
+
+<br>
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,kotlin,git,github,vercel,android&theme=dark" />
+## ¿Qué hago?
+
+<table>
+<tr>
+<td align="center" width="25%">
+
+### Código
+
+Creo, modifico y experimento con software.
+
+</td>
+
+<td align="center" width="25%">
+
+### Web
+
+Interfaces, sistemas y experiencias web.
+
+</td>
+
+<td align="center" width="25%">
+
+### Tecnología
+
+Me gusta entender cómo funcionan las cosas.
+
+</td>
+
+<td align="center" width="25%">
+
+### Experimentos
+
+La parte donde empiezan los problemas.
+
+</td>
+</tr>
+</table>
 
 </div>
 
 <br>
 
-No voy a poner:
-
-`JavaScript — 97%`
-
-porque honestamente...
-
-**¿cómo se mide eso?**
-
-Prefiero decir que son herramientas que utilizo, aprendo y sigo explorando.
-
 ---
 
-## Cómo aprendo
-
-No soy de memorizar veinte páginas de documentación antes de tocar una tecla.
-
-Mi método suele ser bastante más sencillo:
-
-```text
-01  Tengo una idea
-02  Investigo
-03  Intento hacerla
-04  Algo falla
-05  Busco por qué
-06  Aprendo algo nuevo
-07  Lo arreglo
-08  Mejoro lo que hice
-09  Se me ocurre otra cosa
-10  Volvemos al punto 01
-```
-
-Es básicamente un ciclo infinito.
-
-Pero funciona.
-
----
-
-## Actualmente
-
-Estoy enfocado en seguir aprendiendo y mejorar la forma en la que desarrollo.
-
-Especialmente en:
-
-**Desarrollo web**
-
-Crear interfaces y aplicaciones que no se sientan como una página hecha en 2009.
-
-**Inteligencia artificial**
-
-Explorar cómo integrar IA de forma realmente útil y no solamente poner un botón que diga "Pregúntale a la IA".
-
-**Experiencias interactivas**
-
-Me interesa que una aplicación no sea simplemente información colocada en una pantalla.
-
----
-
-## Cosas que probablemente encontrarás aquí
+## Mi forma de trabajar
 
 <details>
-<summary><b>Cuando algo funciona</b></summary>
-
-<br>
-
-Lo dejo funcionando.
-
-Después probablemente pienso:
-
-> "Podría hacerlo mejor."
-
-Y ahí empiezan los problemas.
-
-</details>
-
-<details>
-<summary><b>Cuando algo no funciona</b></summary>
+<summary><b>01 · Tengo una idea</b></summary>
 
 <br>
 
 Primero digo:
 
-> "Qué raro."
+**"Esto estaría fácil."**
 
-Después:
+Después abro el editor.
 
-> "A ver..."
+Después descubro que no estaba fácil.
 
-Después de suficiente tiempo:
-
-> "AHHHHH."
-
-Y finalmente funciona.
+Después sigo.
 
 </details>
 
 <details>
-<summary><b>Cuando digo "solo voy a cambiar una cosa"</b></summary>
+<summary><b>02 · Algo no funciona</b></summary>
 
 <br>
 
-No significa una cosa.
+Mi proceso científico:
 
-Nunca significa una cosa.
+```text
+¿Funciona?
+   │
+   ├── Sí ──► No tocar nada.
+   │
+   └── No ──► Revisar.
+                │
+                ▼
+             Buscar.
+                │
+                ▼
+          Probar algo.
+                │
+                ▼
+          Romper otra cosa.
+                │
+                ▼
+             Arreglar.
+```
 
 </details>
 
----
+<details>
+<summary><b>03 · Finalmente funciona</b></summary>
 
-## Mi objetivo
+<br>
 
-Seguir construyendo.
+No sé exactamente por qué.
 
-No necesariamente hacer el proyecto más grande, utilizar la tecnología más nueva o llenar el repositorio de cosas innecesarias.
+Pero funciona.
 
-Simplemente hacer cosas cada vez mejores que antes.
+Y eso, por ahora, es suficiente.
 
-Aprender algo nuevo.
+```text
+Build successful.
+Confidence: questionable.
+```
 
-Probarlo.
+</details>
 
-Equivocarme.
-
-Arreglarlo.
-
-Y repetir.
+<br>
 
 ---
 
 <div align="center">
 
+## Herramientas que forman parte del caos
+
+<br>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,ts,python,java,git,github,vscode,linux,vercel&perline=11" />
+
+</div>
+
+<br>
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Lo que me interesa
+
 ```text
-┌──────────────────────────────────────────────┐
-│                                              │
-│              KEEP BUILDING.                  │
-│                                              │
-│       aprender → crear → mejorar             │
-│                                              │
-└──────────────────────────────────────────────┘
+▸ Desarrollo web
+▸ Programación
+▸ Automatización
+▸ Interfaces
+▸ Sistemas
+▸ Nuevas tecnologías
+▸ Aprender haciendo
 ```
 
+</td>
+
+<td width="50%" valign="top">
+
+### Lo que estoy mejorando
+
+```text
+▸ Arquitectura
+▸ Código más limpio
+▸ Rendimiento
+▸ Seguridad
+▸ Experiencia de usuario
+▸ Buenas prácticas
+▸ No hacer todo a las 3 AM
+```
+
+</td>
+</tr>
+</table>
+
+---
+
+## Un poco más sobre mí
+
+<details>
+<summary><b>¿Por qué "Fluxionics"?</b></summary>
+
 <br>
 
-**Gracias por pasarte por aquí.**
+Porque necesitaba un nombre.
+
+El nombre se quedó.
+
+Ahora ya es demasiado tarde para cambiarlo.
+
+</details>
+
+<details>
+<summary><b>¿Soy experto?</b></summary>
 
 <br>
 
-<sub>
-Si encontraste algo raro en alguno de mis repositorios,
-probablemente ya lo sé.
-Si no lo sé, ahora sí.
-</sub>
+No.
+
+Y tampoco voy a fingir que sí.
+
+Hay muchísimo que todavía quiero aprender.
+
+Pero si algo no lo sé, lo investigo, lo pruebo y sigo hasta entenderlo.
+
+</details>
+
+<details>
+<summary><b>¿Qué pasa cuando algo falla?</b></summary>
+
+<br>
+
+Primero:
+
+`"¿Qué hice?"`
+
+Después:
+
+`"¿Por qué hice eso?"`
+
+Finalmente:
+
+`"Bueno... ya sé qué NO hacer."`
+
+Experiencia adquirida.
+
+</details>
+
+---
+
+<div align="center">
+
+## Filosofía
+
+<br>
+
+<table>
+<tr>
+<td align="center">
+
+### Aprender
+
+No saber algo no es el problema.
+
+No intentar aprenderlo sí.
+
+</td>
+
+<td align="center">
+
+### Crear
+
+Las ideas sirven más cuando terminan existiendo.
+
+</td>
+
+<td align="center">
+
+### Mejorar
+
+La primera versión solo tiene que existir.
+
+La siguiente puede ser mejor.
+
+</td>
+</tr>
+</table>
+
+<br>
+
+> **"Primero haz que funcione. Después haz que funcione bien."**
+
+</div>
+
+---
+
+## Terminal mental
+
+```bash
+$ whoami
+Fluxionics
+
+$ estado
+aprendiendo
+
+$ café
+necesario
+
+$ errores
+muchos
+
+$ experiencia
++1
+
+$ abandonar
+false
+
+$ continuar
+true
+```
+
+---
+
+<div align="center">
+
+<br>
+
+### Si llegaste hasta aquí...
+
+Probablemente ya viste más de este README de lo que esperaba.
+
+<br>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,50:101B2D,100:0D1117&height=120&section=footer" width="100%"/>
+
+<sub>Hecho con código, curiosidad y probablemente demasiado tiempo.</sub>
 
 </div>
