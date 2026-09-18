@@ -7,7 +7,6 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
-        /* Estilos mejorados para el README renderizado estilo GitHub oscuro pro */
         .markdown-body {
             color: #cbd5e1;
             font-family: ui-sans-serif, system-ui, sans-serif;
@@ -67,6 +66,7 @@
             max-width: 100%;
             border-radius: 0.5rem;
             margin: 0.5rem 0;
+            display: inline-block;
         }
         .markdown-body table {
             width: 100%;
@@ -160,7 +160,18 @@
 
                 if (!Array.isArray(repos)) throw new Error();
 
-                allRepos = repos;
+                // Verificamos en paralelo qué repositorios tienen README de forma ligera usando HEAD/GET optimizado o el endpoint de contents
+                allRepos = await Promise.all(repos.map(async (repo) => {
+                    let hasReadme = false;
+                    try {
+                        const rCheck = await fetch(`https://api.github.com/repos/${repo.owner.login}/${repo.name}/readme`, { method: 'HEAD' });
+                        hasReadme = rCheck.ok;
+                    } catch(e) {
+                        hasReadme = false;
+                    }
+                    return { ...repo, hasReadme };
+                }));
+
                 renderRepos(allRepos);
             } catch (err) {
                 container.innerHTML = '<div class="col-span-full text-center py-16 text-rose-400 bg-slate-900/40 border border-rose-900/40 rounded-2xl">Error al cargar los repositorios de GitHub.</div>';
@@ -183,6 +194,18 @@
                 const langColor = getLanguageColor(repo.language);
                 const updatedDate = new Date(repo.updated_at).toLocaleDateString('es-ES', { year: 'numeric', month: 'short', day: 'numeric' });
                 
+                // Construcción dinámica de botones según disponibilidad de README y Website (homepage)
+                let buttonsHtml = '';
+                if (repo.hasReadme) {
+                    buttonsHtml += `<button onclick="openReadme('${repo.owner.login}', '${repo.name}', '${repo.html_url}')" class="px-3 py-2 bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-200 rounded-xl transition font-medium text-xs flex items-center justify-center gap-1.5 cursor-pointer shadow">📄 README</button>`;
+                }
+                if (repo.homepage && repo.homepage.trim() !== '') {
+                    buttonsHtml += `<a href="${repo.homepage}" target="_blank" class="px-3 py-2 bg-indigo-600 hover:bg-indigo-500 active:scale-95 text-white rounded-xl transition font-medium text-xs flex items-center justify-center gap-1.5 shadow-lg shadow-indigo-600/20">🌐 Web ↗</a>`;
+                }
+                buttonsHtml += `<a href="${repo.html_url}" target="_blank" class="px-3 py-2 bg-red-600 hover:bg-red-500 active:scale-95 text-white rounded-xl transition font-medium text-xs flex items-center justify-center gap-1.5 shadow-lg shadow-red-600/20">GitHub ↗</a>`;
+
+                const gridColsClass = (repo.hasReadme && repo.homepage) ? 'grid-cols-3' : ((repo.hasReadme || repo.homepage) ? 'grid-cols-2' : 'grid-cols-1');
+
                 return `
                     <div class="bg-slate-900/80 hover:bg-slate-900 border border-slate-800/80 hover:border-red-500/50 rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 shadow-xl hover:shadow-red-500/10 group relative overflow-hidden">
                         <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-red-500/0 group-hover:via-red-500 transition-all duration-500"></div>
@@ -210,13 +233,8 @@
                                 <span class="text-slate-400">Actualizado: ${updatedDate}</span>
                             </div>
                             
-                            <div class="grid grid-cols-2 gap-2">
-                                <button onclick="openReadme('${repo.owner.login}', '${repo.name}', '${repo.html_url}')" class="px-3 py-2 bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-200 rounded-xl transition font-medium text-xs flex items-center justify-center gap-1.5 cursor-pointer shadow">
-                                    📄 README
-                                </button>
-                                <a href="${repo.html_url}" target="_blank" class="px-3 py-2 bg-red-600 hover:bg-red-500 active:scale-95 text-white rounded-xl transition font-medium text-xs flex items-center justify-center gap-1.5 shadow-lg shadow-red-600/20">
-                                    GitHub ↗
-                                </a>
+                            <div class="grid ${gridColsClass} gap-2">
+                                ${buttonsHtml}
                             </div>
                         </div>
                     </div>
@@ -255,12 +273,21 @@
                 const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`);
                 const data = await res.json();
                 if (data && data.content) {
-                    // Decodificación UTF-8 segura para caracteres especiales y tildes (como en InteeBuild)
                     const binString = atob(data.content);
                     const bytes = Uint8Array.from(binString, (m) => m.codePointAt(0));
-                    const markdown = new TextDecoder().decode(bytes);
+                    let markdown = new TextDecoder().decode(bytes);
                     
-                    modalBody.innerHTML = marked.parse(markdown);
+                    // Transformación inteligente para rutas relativas de imágenes (ej: links a archivos locales en GitHub RAW)
+                    const rawBaseUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/`;
+                    const rawBaseUrlMaster = `https://raw.githubusercontent.com/${owner}/${repo}/master/`;
+                    
+                    // Renderizamos el markdown
+                    let parsedHtml = marked.parse(markdown);
+
+                    // Reemplazamos rutas relativas de imágenes en el HTML ya parseado para asegurar que carguen correctamente
+                    parsedHtml = parsedHtml.replace(/src="(?!(https?:\/\/|data:))/g, `src="${rawBaseUrl}`);
+                    
+                    modalBody.innerHTML = parsedHtml;
                 } else {
                     modalBody.innerHTML = '<div class="text-center py-20 text-slate-500 italic">Este repositorio no cuenta con un archivo README.md</div>';
                 }
@@ -274,7 +301,6 @@
             document.body.style.overflow = 'auto';
         }
 
-        // Cerrar modal con la tecla Escape
         window.addEventListener('keydown', (e) => {
             if (e.key === 'Escape') closeModal();
         });
