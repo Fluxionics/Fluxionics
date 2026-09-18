@@ -1,97 +1,298 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fluxionics Repositories</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <style>
+        /* Estilos mejorados para el README renderizado estilo GitHub oscuro pro */
+        .markdown-body {
+            color: #cbd5e1;
+            font-family: ui-sans-serif, system-ui, sans-serif;
+            font-size: 0.925rem;
+            line-height: 1.6;
+        }
+        .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+            color: #f8fafc;
+            font-weight: 700;
+            margin-top: 1.5em;
+            margin-bottom: 0.5em;
+            border-bottom: 1px solid #1e293b;
+            padding-bottom: 0.3em;
+        }
+        .markdown-body h1 { font-size: 1.5rem; }
+        .markdown-body h2 { font-size: 1.25rem; }
+        .markdown-body h3 { font-size: 1.1rem; border-bottom: none; }
+        .markdown-body p { margin-bottom: 1em; }
+        .markdown-body a { color: #818cf8; text-decoration: underline; text-underline-offset: 3px; }
+        .markdown-body a:hover { color: #a5b4fc; }
+        .markdown-body ul, .markdown-body ol { padding-left: 1.5rem; margin-bottom: 1em; }
+        .markdown-body ul { list-style-type: disc; }
+        .markdown-body ol { list-style-type: decimal; }
+        .markdown-body li { margin-bottom: 0.25rem; }
+        .markdown-body code {
+            background-color: #1e293b;
+            color: #f43f5e;
+            padding: 0.2rem 0.4rem;
+            border-radius: 0.375rem;
+            font-size: 0.85em;
+            font-family: ui-monospace, monospace;
+        }
+        .markdown-body pre {
+            background-color: #0f172a !important;
+            border: 1px solid #1e293b;
+            border-radius: 0.75rem;
+            padding: 1rem;
+            overflow-x: auto;
+            margin-bottom: 1rem;
+        }
+        .markdown-body pre code {
+            background-color: transparent;
+            color: #e2e8f0;
+            padding: 0;
+        }
+        .markdown-body blockquote {
+            border-left: 4px solid #6366f1;
+            padding-left: 1rem;
+            color: #94a3b8;
+            margin: 1rem 0;
+            background: rgba(99, 102, 241, 0.05);
+            padding-top: 0.5rem;
+            padding-bottom: 0.5rem;
+            border-radius: 0 0.375rem 0.375rem 0;
+        }
+        .markdown-body img {
+            max-width: 100%;
+            border-radius: 0.5rem;
+            margin: 0.5rem 0;
+        }
+        .markdown-body table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 1rem;
+        }
+        .markdown-body th, .markdown-body td {
+            border: 1px solid #1e293b;
+            padding: 0.5rem 0.75rem;
+        }
+        .markdown-body th {
+            background-color: #1e293b;
+            color: #fff;
+        }
+    </style>
 </head>
-<body class="bg-slate-950 text-slate-100 min-h-screen font-sans selection:bg-indigo-500 selection:text-white">
-    <div class="max-w-6xl mx-auto px-4 py-10">
-        <header class="mb-10 text-center">
-            <h1 class="text-4xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-400">Hello</h1>
-            <p class="text-slate-400 mt-2">GitHub repositories from @Fluxionics</p>
+<body class="bg-[#090a0f] text-slate-100 min-h-screen font-sans selection:bg-red-600 selection:text-white">
+    <!-- Fondo decorativo tipo grid / resplandor -->
+    <div class="fixed inset-0 pointer-events-none z-0 flex justify-center items-start overflow-hidden">
+        <div class="absolute top-[-10%] w-[600px] h-[300px] bg-red-600/10 blur-[140px] rounded-full"></div>
+        <div class="absolute top-[20%] right-[-10%] w-[400px] h-[400px] bg-rose-600/10 blur-[160px] rounded-full"></div>
+    </div>
+
+    <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-12">
+        <!-- Header -->
+        <header class="mb-12 text-center flex flex-col items-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-950/40 border border-red-500/30 text-red-400 text-xs font-semibold tracking-wider uppercase mb-4 shadow-lg shadow-red-950/50">
+                <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span> @Fluxionics Hub
+            </div>
+            <h1 class="text-5xl sm:text-6xl font-black tracking-tight text-white mb-3 drop-shadow-sm">
+                Hello
+            </h1>
+            <p class="text-slate-400 text-base max-w-md mx-auto">
+                Explora los repositorios oficiales, código fuente y documentación en tiempo real.
+            </p>
         </header>
 
+        <!-- Barra de búsqueda y filtros -->
+        <div class="mb-8 flex flex-col sm:flex-row gap-4 items-center justify-between bg-slate-900/60 backdrop-blur-xl border border-slate-800/80 p-4 rounded-2xl shadow-xl">
+            <div class="relative w-full sm:w-96">
+                <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-slate-500">🔍</span>
+                <input type="text" id="search-input" placeholder="Buscar repositorio..." oninput="filterRepos()" class="w-full bg-slate-950/80 border border-slate-800 text-slate-200 placeholder-slate-500 text-sm rounded-xl pl-11 pr-4 py-2.5 focus:outline-none focus:border-red-500 transition shadow-inner">
+            </div>
+            <div id="repo-count" class="text-xs font-medium text-slate-400 px-2">Cargando repositorios...</div>
+        </div>
+
+        <!-- Grid de Repositorios -->
         <div id="repos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div class="col-span-full text-center py-12 text-slate-500">Loading repositories...</div>
+            <div class="col-span-full text-center py-20 text-slate-500 flex flex-col items-center gap-3">
+                <div class="w-8 h-8 border-2 border-red-500 border-t-transparent rounded-full animate-spin"></div>
+                <p class="text-sm font-medium">Conectando con GitHub...</p>
+            </div>
         </div>
     </div>
 
-    <!-- Modal para ver el README -->
-    <div id="modal" class="fixed inset-0 bg-black/80 backdrop-blur-sm hidden z-50 flex items-center justify-center p-4">
-        <div class="bg-slate-900 border border-slate-800 w-full max-w-3xl max-h-[85vh] rounded-2xl flex flex-col shadow-2xl overflow-hidden">
-            <div class="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-950">
-                <h3 id="modal-title" class="font-bold text-lg text-indigo-400 truncate">README</h3>
-                <button onclick="closeModal()" class="text-slate-400 hover:text-white bg-slate-800 hover:bg-slate-700 w-8 h-8 rounded-full flex items-center justify-center transition">&times;</button>
+    <!-- Modal Pro para el README -->
+    <div id="modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden z-50 flex items-center justify-center p-3 sm:p-6 transition-all">
+        <div class="bg-slate-900 border border-slate-800 w-full max-w-4xl h-[90vh] rounded-3xl flex flex-col shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+            <!-- Header Modal -->
+            <div class="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-950/90 shrink-0">
+                <div class="flex items-center gap-3 overflow-hidden">
+                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <h3 id="modal-title" class="font-bold text-base sm:text-lg text-white truncate">README.md</h3>
+                </div>
+                <button onclick="closeModal()" class="text-slate-400 hover:text-white bg-slate-800/80 hover:bg-red-600 w-9 h-9 rounded-xl flex items-center justify-center transition cursor-pointer shadow">✕</button>
             </div>
-            <div id="modal-body" class="p-6 overflow-y-auto prose prose-invert max-w-none text-slate-300">
-                Loading README...
+            <!-- Cuerpo Modal -->
+            <div id="modal-body" class="p-6 sm:p-8 overflow-y-auto markdown-body bg-slate-900/50 flex-1">
+                <div class="flex flex-col items-center justify-center h-full text-slate-500 gap-3">
+                    <div class="w-6 h-6 border-2 border-red-500 border-t-transparent rounded-full animate-spin"></div>
+                    <p class="text-sm">Cargando documentación...</p>
+                </div>
+            </div>
+            <!-- Footer Modal -->
+            <div class="px-6 py-3 border-t border-slate-800 bg-slate-950 flex items-center justify-between text-xs text-slate-500 shrink-0">
+                <span>Visualizador Markdown Seguro</span>
+                <a id="modal-gh-link" href="#" target="_blank" class="text-red-400 hover:text-red-300 font-semibold flex items-center gap-1 transition">Ver en GitHub ↗</a>
             </div>
         </div>
     </div>
 
     <script>
+        let allRepos = [];
+
         async function fetchRepos() {
             const container = document.getElementById('repos');
+            const countLabel = document.getElementById('repo-count');
             try {
-                const res = await fetch('https://api.github.com/users/Fluxionics/repos?sort=updated');
+                const res = await fetch('https://api.github.com/users/Fluxionics/repos?sort=updated&per_page=100');
                 const repos = await res.json();
 
                 if (!Array.isArray(repos)) throw new Error();
 
-                container.innerHTML = repos.map(repo => `
-                    <div class="bg-slate-900 border border-slate-800/80 rounded-2xl p-6 flex flex-col justify-between hover:border-indigo-500/50 transition-all duration-300 shadow-lg hover:shadow-indigo-500/10">
-                        <div>
-                            <div class="flex items-start justify-between gap-2 mb-3">
-                                <h2 class="font-bold text-lg text-white truncate"><a href="${repo.html_url}" target="_blank" class="hover:text-indigo-400 transition">${repo.name}</a></h2>
-                                ${repo.language ? `<span class="text-xs px-2.5 py-1 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 shrink-0 font-medium">${repo.language}</span>` : ''}
-                            </div>
-                            <p class="text-slate-400 text-sm line-clamp-2 mb-4">${repo.description || 'No description provided.'}</p>
-                        </div>
-                        <div class="flex items-center justify-between pt-4 border-t border-slate-800/60 mt-auto text-xs text-slate-400">
-                            <div class="flex items-center gap-3">
-                                <span>⭐ ${repo.stargazers_count}</span>
-                                <span>🍴 ${repo.forks_count}</span>
-                            </div>
-                            <div class="flex items-center gap-2">
-                                <button onclick="openReadme('${repo.owner.login}', '${repo.name}')" class="px-3 py-1.5 bg-slate-800 hover:bg-indigo-600 hover:text-white rounded-lg transition font-medium text-slate-300 cursor-pointer">README</button>
-                                <a href="${repo.html_url}" target="_blank" class="px-3 py-1.5 bg-indigo-600 hover:bg-indigo-500 text-white rounded-lg transition font-medium">GitHub</a>
-                            </div>
-                        </div>
-                    </div>
-                `).join('');
+                allRepos = repos;
+                renderRepos(allRepos);
             } catch (err) {
-                container.innerHTML = '<div class="col-span-full text-center py-12 text-rose-400">Error loading repositories.</div>';
+                container.innerHTML = '<div class="col-span-full text-center py-16 text-rose-400 bg-slate-900/40 border border-rose-900/40 rounded-2xl">Error al cargar los repositorios de GitHub.</div>';
+                countLabel.innerText = 'Error de conexión';
             }
         }
 
-        async function openReadme(owner, repo) {
+        function renderRepos(repos) {
+            const container = document.getElementById('repos');
+            const countLabel = document.getElementById('repo-count');
+            
+            countLabel.innerText = `${repos.length} repositorios encontrados`;
+
+            if (repos.length === 0) {
+                container.innerHTML = '<div class="col-span-full text-center py-16 text-slate-500 bg-slate-900/40 border border-slate-800/80 rounded-2xl">No se encontraron repositorios.</div>';
+                return;
+            }
+
+            container.innerHTML = repos.map(repo => {
+                const langColor = getLanguageColor(repo.language);
+                const updatedDate = new Date(repo.updated_at).toLocaleDateString('es-ES', { year: 'numeric', month: 'short', day: 'numeric' });
+                
+                return `
+                    <div class="bg-slate-900/80 hover:bg-slate-900 border border-slate-800/80 hover:border-red-500/50 rounded-2xl p-6 flex flex-col justify-between transition-all duration-300 shadow-xl hover:shadow-red-500/10 group relative overflow-hidden">
+                        <div class="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-red-500/0 group-hover:via-red-500 transition-all duration-500"></div>
+                        <div>
+                            <div class="flex items-start justify-between gap-2 mb-3">
+                                <h2 class="font-bold text-lg text-white truncate group-hover:text-red-400 transition-colors">
+                                    <a href="${repo.html_url}" target="_blank" class="focus:outline-none">${repo.name}</a>
+                                </h2>
+                                ${repo.language ? `
+                                    <span class="inline-flex items-center gap-1.5 text-xs px-2.5 py-1 rounded-full bg-slate-950 text-slate-300 border border-slate-800 shrink-0 font-medium">
+                                        <span class="w-2 h-2 rounded-full" style="background-color: ${langColor};"></span>
+                                        ${repo.language}
+                                    </span>
+                                ` : ''}
+                            </div>
+                            <p class="text-slate-400 text-sm line-clamp-2 mb-4 leading-relaxed">${repo.description || 'Sin descripción disponible en este repositorio.'}</p>
+                        </div>
+                        
+                        <div>
+                            <div class="flex items-center justify-between text-xs text-slate-500 mb-4 pt-3 border-t border-slate-800/60">
+                                <div class="flex items-center gap-3">
+                                    <span class="flex items-center gap-1" title="Estrellas">⭐ ${repo.stargazers_count}</span>
+                                    <span class="flex items-center gap-1" title="Forks">🍴 ${repo.forks_count}</span>
+                                </div>
+                                <span class="text-slate-400">Actualizado: ${updatedDate}</span>
+                            </div>
+                            
+                            <div class="grid grid-cols-2 gap-2">
+                                <button onclick="openReadme('${repo.owner.login}', '${repo.name}', '${repo.html_url}')" class="px-3 py-2 bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-200 rounded-xl transition font-medium text-xs flex items-center justify-center gap-1.5 cursor-pointer shadow">
+                                    📄 README
+                                </button>
+                                <a href="${repo.html_url}" target="_blank" class="px-3 py-2 bg-red-600 hover:bg-red-500 active:scale-95 text-white rounded-xl transition font-medium text-xs flex items-center justify-center gap-1.5 shadow-lg shadow-red-600/20">
+                                    GitHub ↗
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+        }
+
+        function filterRepos() {
+            const query = document.getElementById('search-input').value.toLowerCase();
+            const filtered = allRepos.filter(repo => 
+                repo.name.toLowerCase().includes(query) || 
+                (repo.description && repo.description.toLowerCase().includes(query)) ||
+                (repo.language && repo.language.toLowerCase().includes(query))
+            );
+            renderRepos(filtered);
+        }
+
+        async function openReadme(owner, repo, htmlUrl) {
             const modal = document.getElementById('modal');
             const modalTitle = document.getElementById('modal-title');
             const modalBody = document.getElementById('modal-body');
+            const modalGhLink = document.getElementById('modal-gh-link');
 
             modalTitle.innerText = `${repo} / README.md`;
-            modalBody.innerHTML = '<div class="text-center py-8 text-slate-500">Loading README...</div>';
+            modalGhLink.href = `${htmlUrl}#readme`;
+            modalBody.innerHTML = `
+                <div class="flex flex-col items-center justify-center py-20 text-slate-500 gap-3">
+                    <div class="w-6 h-6 border-2 border-red-500 border-t-transparent rounded-full animate-spin"></div>
+                    <p class="text-sm font-medium">Cargando README.md...</p>
+                </div>
+            `;
             modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
 
             try {
                 const res = await fetch(`https://api.github.com/repos/${owner}/${repo}/readme`);
                 const data = await res.json();
                 if (data && data.content) {
-                    const markdown = atob(data.content);
+                    // Decodificación UTF-8 segura para caracteres especiales y tildes (como en InteeBuild)
+                    const binString = atob(data.content);
+                    const bytes = Uint8Array.from(binString, (m) => m.codePointAt(0));
+                    const markdown = new TextDecoder().decode(bytes);
+                    
                     modalBody.innerHTML = marked.parse(markdown);
                 } else {
-                    modalBody.innerHTML = '<p class="text-slate-500 italic text-center py-8">This repository does not have a README.md</p>';
+                    modalBody.innerHTML = '<div class="text-center py-20 text-slate-500 italic">Este repositorio no cuenta con un archivo README.md</div>';
                 }
             } catch (e) {
-                modalBody.innerHTML = '<p class="text-slate-500 italic text-center py-8">Could not load README.md</p>';
+                modalBody.innerHTML = '<div class="text-center py-20 text-rose-400 italic">No se pudo cargar el README.md de este repositorio.</div>';
             }
         }
 
         function closeModal() {
             document.getElementById('modal').classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Cerrar modal con la tecla Escape
+        window.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+
+        function getLanguageColor(lang) {
+            const colors = {
+                'JavaScript': '#f7df1e',
+                'TypeScript': '#3178c6',
+                'HTML': '#e34f26',
+                'CSS': '#563d7c',
+                'Python': '#3572A5',
+                'Java': '#b07219',
+                'C++': '#f34b7d',
+                'C#': '#178600',
+                'Shell': '#89e051',
+                'PHP': '#4F5D95'
+            };
+            return colors[lang] || '#64748b';
         }
 
         fetchRepos();
