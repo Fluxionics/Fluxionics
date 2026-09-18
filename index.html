@@ -3,45 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fluxionics Repositories</title>
+    <title>Fluxionics // 日本 - Repositories</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Noto+Sans+JP:wght@400;700;900&display=swap');
+
+        body {
+            font-family: 'Plus Jakarta Sans', 'Noto Sans JP', sans-serif;
+        }
+
         .markdown-body {
             color: #cbd5e1;
-            font-family: ui-sans-serif, system-ui, sans-serif;
             font-size: 0.925rem;
-            line-height: 1.6;
+            line-height: 1.7;
         }
         .markdown-body h1, .markdown-body h2, .markdown-body h3 {
             color: #f8fafc;
             font-weight: 700;
             margin-top: 1.5em;
             margin-bottom: 0.5em;
-            border-bottom: 1px solid #1e293b;
+            border-bottom: 1px solid rgba(239, 68, 68, 0.2);
             padding-bottom: 0.3em;
         }
         .markdown-body h1 { font-size: 1.5rem; }
         .markdown-body h2 { font-size: 1.25rem; }
         .markdown-body h3 { font-size: 1.1rem; border-bottom: none; }
         .markdown-body p { margin-bottom: 1em; }
-        .markdown-body a { color: #818cf8; text-decoration: underline; text-underline-offset: 3px; }
-        .markdown-body a:hover { color: #a5b4fc; }
+        .markdown-body a { color: #f43f5e; text-decoration: underline; text-underline-offset: 3px; }
+        .markdown-body a:hover { color: #fb7185; }
         .markdown-body ul, .markdown-body ol { padding-left: 1.5rem; margin-bottom: 1em; }
         .markdown-body ul { list-style-type: disc; }
         .markdown-body ol { list-style-type: decimal; }
         .markdown-body li { margin-bottom: 0.25rem; }
         .markdown-body code {
-            background-color: #1e293b;
+            background-color: rgba(15, 23, 42, 0.8);
             color: #f43f5e;
             padding: 0.2rem 0.4rem;
             border-radius: 0.375rem;
+            border: 1px solid rgba(239, 68, 68, 0.2);
             font-size: 0.85em;
             font-family: ui-monospace, monospace;
         }
         .markdown-body pre {
-            background-color: #0f172a !important;
-            border: 1px solid #1e293b;
+            background-color: #050508 !important;
+            border: 1px solid rgba(239, 68, 68, 0.3);
             border-radius: 0.75rem;
             padding: 1rem;
             overflow-x: auto;
@@ -50,14 +56,15 @@
         .markdown-body pre code {
             background-color: transparent;
             color: #e2e8f0;
+            border: none;
             padding: 0;
         }
         .markdown-body blockquote {
-            border-left: 4px solid #6366f1;
+            border-left: 4px solid #f43f5e;
             padding-left: 1rem;
             color: #94a3b8;
             margin: 1rem 0;
-            background: rgba(99, 102, 241, 0.05);
+            background: rgba(244, 63, 94, 0.05);
             padding-top: 0.5rem;
             padding-bottom: 0.5rem;
             border-radius: 0 0.375rem 0.375rem 0;
@@ -74,41 +81,51 @@
             margin-bottom: 1rem;
         }
         .markdown-body th, .markdown-body td {
-            border: 1px solid #1e293b;
+            border: 1px solid rgba(239, 68, 68, 0.2);
             padding: 0.5rem 0.75rem;
         }
         .markdown-body th {
-            background-color: #1e293b;
+            background-color: rgba(239, 68, 68, 0.1);
             color: #fff;
         }
     </style>
 </head>
-<body class="bg-[#090a0f] text-slate-100 min-h-screen font-sans selection:bg-red-600 selection:text-white">
-    <!-- Fondo decorativo tipo grid / resplandor -->
+<body class="bg-[#030305] text-slate-100 min-h-screen selection:bg-red-600 selection:text-white relative overflow-x-hidden">
+    <!-- Fondo Estilo Neón / Japonés Cyberpunk -->
     <div class="fixed inset-0 pointer-events-none z-0 flex justify-center items-start overflow-hidden">
-        <div class="absolute top-[-10%] w-[600px] h-[300px] bg-red-600/10 blur-[140px] rounded-full"></div>
-        <div class="absolute top-[20%] right-[-10%] w-[400px] h-[400px] bg-rose-600/10 blur-[160px] rounded-full"></div>
+        <div class="absolute top-[-10%] left-[20%] w-[500px] h-[300px] bg-red-600/10 blur-[150px] rounded-full"></div>
+        <div class="absolute top-[30%] right-[10%] w-[400px] h-[400px] bg-rose-700/10 blur-[180px] rounded-full"></div>
+        <div class="absolute inset-0 bg-[radial-gradient(#1e1e24_1px,transparent_1px)] [background-size:24px_24px] opacity-25"></div>
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 py-12">
-        <!-- Header -->
+        <!-- Header con temática japonesa -->
         <header class="mb-12 text-center flex flex-col items-center">
-            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-950/40 border border-red-500/30 text-red-400 text-xs font-semibold tracking-wider uppercase mb-4 shadow-lg shadow-red-950/50">
-                <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span> @Fluxionics Hub
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-red-950/40 border border-red-500/30 text-red-400 text-xs font-semibold tracking-widest uppercase mb-4 shadow-lg shadow-red-950/50">
+                <span class="w-2 h-2 rounded-full bg-red-500 animate-pulse"></span> フラックスオニクス // SYSTEM ONLINE
             </div>
-            <h1 class="text-5xl sm:text-6xl font-black tracking-tight text-white mb-3 drop-shadow-sm">
-                Hello
+            <h1 class="text-6xl sm:text-7xl font-black tracking-tight text-white mb-2 drop-shadow-[0_0_25px_rgba(239,68,68,0.3)]">
+                Hello <span class="text-red-500 text-4xl sm:text-5xl font-light">こんにちは</span>
             </h1>
-            <p class="text-slate-400 text-base max-w-md mx-auto">
-                Explora los repositorios oficiales, código fuente y documentación en tiempo real.
+            <p class="text-slate-400 text-sm sm:text-base max-w-md mx-auto mb-6">
+                Repositorios oficiales y proyectos de desarrollo de código abierto.
             </p>
+
+            <!-- Tarjeta de Discord -->
+            <div class="inline-flex items-center gap-3 bg-slate-900/80 border border-red-500/30 hover:border-red-500/60 px-5 py-2.5 rounded-2xl shadow-xl transition backdrop-blur-md">
+                <span class="text-xl">💬</span>
+                <div class="text-left">
+                    <p class="text-[10px] text-red-400 font-bold uppercase tracking-wider">Discord Contact</p>
+                    <p class="text-xs sm:text-sm font-mono font-semibold text-slate-200 select-all">dron4e6h1u</p>
+                </div>
+            </div>
         </header>
 
         <!-- Barra de búsqueda y filtros -->
         <div class="mb-8 flex flex-col sm:flex-row gap-4 items-center justify-between bg-slate-900/60 backdrop-blur-xl border border-slate-800/80 p-4 rounded-2xl shadow-xl">
             <div class="relative w-full sm:w-96">
                 <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-slate-500">🔍</span>
-                <input type="text" id="search-input" placeholder="Buscar repositorio..." oninput="filterRepos()" class="w-full bg-slate-950/80 border border-slate-800 text-slate-200 placeholder-slate-500 text-sm rounded-xl pl-11 pr-4 py-2.5 focus:outline-none focus:border-red-500 transition shadow-inner">
+                <input type="text" id="search-input" placeholder="Buscar en repositorios..." oninput="filterRepos()" class="w-full bg-slate-950/80 border border-slate-800 text-slate-200 placeholder-slate-500 text-sm rounded-xl pl-11 pr-4 py-2.5 focus:outline-none focus:border-red-500 transition shadow-inner">
             </div>
             <div id="repo-count" class="text-xs font-medium text-slate-400 px-2">Cargando repositorios...</div>
         </div>
@@ -117,18 +134,18 @@
         <div id="repos" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <div class="col-span-full text-center py-20 text-slate-500 flex flex-col items-center gap-3">
                 <div class="w-8 h-8 border-2 border-red-500 border-t-transparent rounded-full animate-spin"></div>
-                <p class="text-sm font-medium">Conectando con GitHub...</p>
+                <p class="text-sm font-medium">Sincronizando con GitHub...</p>
             </div>
         </div>
     </div>
 
-    <!-- Modal Pro para el README -->
+    <!-- Modal Estilizado para el README -->
     <div id="modal" class="fixed inset-0 bg-black/85 backdrop-blur-md hidden z-50 flex items-center justify-center p-3 sm:p-6 transition-all">
-        <div class="bg-slate-900 border border-slate-800 w-full max-w-4xl h-[90vh] rounded-3xl flex flex-col shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+        <div class="bg-slate-900 border border-red-500/30 w-full max-w-4xl h-[90vh] rounded-3xl flex flex-col shadow-2xl overflow-hidden animate-in fade-in zoom-in-95 duration-200">
             <!-- Header Modal -->
             <div class="flex items-center justify-between px-6 py-4 border-b border-slate-800 bg-slate-950/90 shrink-0">
                 <div class="flex items-center gap-3 overflow-hidden">
-                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                    <div class="w-3 h-3 rounded-full bg-red-500 animate-ping"></div>
                     <h3 id="modal-title" class="font-bold text-base sm:text-lg text-white truncate">README.md</h3>
                 </div>
                 <button onclick="closeModal()" class="text-slate-400 hover:text-white bg-slate-800/80 hover:bg-red-600 w-9 h-9 rounded-xl flex items-center justify-center transition cursor-pointer shadow">✕</button>
@@ -142,7 +159,7 @@
             </div>
             <!-- Footer Modal -->
             <div class="px-6 py-3 border-t border-slate-800 bg-slate-950 flex items-center justify-between text-xs text-slate-500 shrink-0">
-                <span>Visualizador Markdown Seguro</span>
+                <span>Fluxionics Secure Viewer</span>
                 <a id="modal-gh-link" href="#" target="_blank" class="text-red-400 hover:text-red-300 font-semibold flex items-center gap-1 transition">Ver en GitHub ↗</a>
             </div>
         </div>
@@ -160,8 +177,10 @@
 
                 if (!Array.isArray(repos)) throw new Error();
 
-                // Verificamos en paralelo qué repositorios tienen README de forma ligera usando HEAD/GET optimizado o el endpoint de contents
-                allRepos = await Promise.all(repos.map(async (repo) => {
+                // Filtrar repos vacíos (size === 0) y validar en paralelo si tienen README
+                const validRepos = repos.filter(repo => repo.size > 0);
+
+                allRepos = await Promise.all(validRepos.map(async (repo) => {
                     let hasReadme = false;
                     try {
                         const rCheck = await fetch(`https://api.github.com/repos/${repo.owner.login}/${repo.name}/readme`, { method: 'HEAD' });
@@ -183,10 +202,10 @@
             const container = document.getElementById('repos');
             const countLabel = document.getElementById('repo-count');
             
-            countLabel.innerText = `${repos.length} repositorios encontrados`;
+            countLabel.innerText = `${repos.length} repositorios activos`;
 
             if (repos.length === 0) {
-                container.innerHTML = '<div class="col-span-full text-center py-16 text-slate-500 bg-slate-900/40 border border-slate-800/80 rounded-2xl">No se encontraron repositorios.</div>';
+                container.innerHTML = '<div class="col-span-full text-center py-16 text-slate-500 bg-slate-900/40 border border-slate-800/80 rounded-2xl">No se encontraron repositorios con código.</div>';
                 return;
             }
 
@@ -194,7 +213,6 @@
                 const langColor = getLanguageColor(repo.language);
                 const updatedDate = new Date(repo.updated_at).toLocaleDateString('es-ES', { year: 'numeric', month: 'short', day: 'numeric' });
                 
-                // Construcción dinámica de botones según disponibilidad de README y Website (homepage)
                 let buttonsHtml = '';
                 if (repo.hasReadme) {
                     buttonsHtml += `<button onclick="openReadme('${repo.owner.login}', '${repo.name}', '${repo.html_url}')" class="px-3 py-2 bg-slate-800 hover:bg-slate-700 active:scale-95 text-slate-200 rounded-xl transition font-medium text-xs flex items-center justify-center gap-1.5 cursor-pointer shadow">📄 README</button>`;
@@ -230,7 +248,7 @@
                                     <span class="flex items-center gap-1" title="Estrellas">⭐ ${repo.stargazers_count}</span>
                                     <span class="flex items-center gap-1" title="Forks">🍴 ${repo.forks_count}</span>
                                 </div>
-                                <span class="text-slate-400">Actualizado: ${updatedDate}</span>
+                                <span class="text-slate-400">${updatedDate}</span>
                             </div>
                             
                             <div class="grid ${gridColsClass} gap-2">
@@ -277,14 +295,10 @@
                     const bytes = Uint8Array.from(binString, (m) => m.codePointAt(0));
                     let markdown = new TextDecoder().decode(bytes);
                     
-                    // Transformación inteligente para rutas relativas de imágenes (ej: links a archivos locales en GitHub RAW)
                     const rawBaseUrl = `https://raw.githubusercontent.com/${owner}/${repo}/main/`;
-                    const rawBaseUrlMaster = `https://raw.githubusercontent.com/${owner}/${repo}/master/`;
-                    
-                    // Renderizamos el markdown
                     let parsedHtml = marked.parse(markdown);
 
-                    // Reemplazamos rutas relativas de imágenes en el HTML ya parseado para asegurar que carguen correctamente
+                    // Reemplazo para que carguen correctamente las imágenes relativas del README
                     parsedHtml = parsedHtml.replace(/src="(?!(https?:\/\/|data:))/g, `src="${rawBaseUrl}`);
                     
                     modalBody.innerHTML = parsedHtml;
