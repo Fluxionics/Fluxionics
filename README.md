@@ -3,7 +3,7 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fluxionics&theme=radical">
 </p>
 
-<h2 align="center">Reach me on <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="50"></h2>
+<h2 align="center">Escríbeme <img src="https://media.giphy.com/media/GK7dGndK4kyOozR9Xk/giphy.gif" width="50"></h2>
 <p align="center">
     <a href="https://discord.com/users/1084725255727239270" target="_blank">
         <img src="https://img.shields.io/badge/Discord-5865F2?style=flat&logo=discord&logoColor=white" alt="Discord">
@@ -11,14 +11,13 @@
     <a href="https://www.tiktok.com/@jlcojvjcl" target="_blank">
         <img src="https://img.shields.io/badge/TikTok-000000?style=flat&logo=tiktok&logoColor=white" alt="TikTok">
     </a>
-    </a>
     <a href="https://github.com/Fluxionics" target="_blank">
         <img src="https://img.shields.io/badge/GitHub-Fluxionics-181717?style=flat&logo=github&logoColor=white" alt="GitHub">
     </a>
 </p>
 
 <p align="center">
-<h2 align="center">Technology Stack <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"></h2>
+<h2 align="center">Stack tecnológico <img src="https://media.giphy.com/media/GAtTF1kUyoMFx2QL7n/giphy.gif" width="30"></h2>
 </p>
 <p align="center">
 <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black"/>
@@ -35,5 +34,5 @@
 </p>
 
 <p align="center">
-<img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=Fluxionics&show_icons=true&locale=en&layout=compact&theme=radical&line_height=0" />
+<img width="50%" src="https://github-readme-streak-stats.herokuapp.com/?user=Fluxionics&show_icons=true&locale=es&layout=compact&theme=radical&line_height=0" />
 </p>
