@@ -1,8 +1,7 @@
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Fluxionics&show_icons=true&theme=tokyonight&line_height=27">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fluxionics&theme=radical">
+  <img width="49%" src="https://github-readme-stats.vercel.app/api?username=Fluxionics&show_icons=true&theme=tokyonight&include_all_commits=true&rank_icon=github" alt="Estadísticas de Fluxionics" />
+  <img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Fluxionics&theme=tokyonight&layout=compact&langs_count=8" alt="Lenguajes de Fluxionics" />
 </p>
-
 <h2 align="center">Escríbeme <img src="https://media.giphy.com/media/GK7dGndK4kyOozR9Xk/giphy.gif" width="50"></h2>
 <p align="center">
     <a href="https://discord.com/users/1084725255727239270" target="_blank">
